@@ -10,7 +10,7 @@ def hello_world():
 
 dag = DAG(
         'demo1',
-         start_date=datetime(2020,2,20))
+         start_date=datetime(2020,2,27))
 
 
 my_first_task=PythonOperator(
