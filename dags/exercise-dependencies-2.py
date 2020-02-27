@@ -17,7 +17,7 @@ def my_first_pipeline():
 dag = DAG(
     "my_awesome_datapipeline_exercise-2",
     schedule_interval='0 12 * * *',
-    start_date=datetime(2020,2,20), catchup=False
+    start_date=datetime(2020,2,27)
 )
 
 call_spark_job = SimpleHttpOperator(

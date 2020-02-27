@@ -35,7 +35,7 @@ def get_data():
 dag = DAG(
     "demo_python_operator",
     schedule_interval='0 12 * * *',
-    start_date=datetime(2020,2,20), catchup=False
+    start_date=datetime(2020,2,27)
 )
 
 get_data_task=PythonOperator(

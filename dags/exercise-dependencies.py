@@ -33,7 +33,7 @@ def get_data_1():
 dag = DAG(
     "my_awesome_datapipeline_exercise",
     schedule_interval='0 12 * * *',
-    start_date=datetime(2020,2,10)
+    start_date=datetime(2020,2,27)
 )
 
 call_spark_job = SimpleHttpOperator(

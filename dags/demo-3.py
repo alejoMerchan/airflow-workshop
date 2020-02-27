@@ -19,7 +19,7 @@ def complete():
 
 dag = DAG(
     "demo3",
-    start_date=datetime(2020,2,20))
+    start_date=datetime(2020,2,27))
 
 hello_world_task = PythonOperator(
     task_id="hello_world",

@@ -5,7 +5,7 @@ from airflow.operators import MyFirstOperator
 
 dag = DAG('demo_my_operator', description='another tutorial dag',
           schedule_interval='0 12 * * *',
-          start_date=datetime(2020,2,20))
+          start_date=datetime(2020,2,27))
 
 dummy_task = DummyOperator(task_id='dummy_task', dag=dag)
 
