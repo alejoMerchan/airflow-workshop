@@ -1,0 +1,156 @@
+ WARN [2020-02-20 16:30:36,414] ({main} NativeCodeLoader.java[<clinit>]:62) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+ INFO [2020-02-20 16:30:36,754] ({main} RemoteInterpreterServer.java[main]:261) - URL:jar:file:/zeppelin/interpreter/spark/spark-interpreter-0.8.2.jar!/org/apache/zeppelin/interpreter/remote/RemoteInterpreterServer.class
+ INFO [2020-02-20 16:30:36,799] ({main} RemoteInterpreterServer.java[<init>]:162) - Launching ThriftServer at 192.168.192.3:39755
+ INFO [2020-02-20 16:30:36,805] ({main} RemoteInterpreterServer.java[<init>]:166) - Starting remote interpreter server on port 39755
+ INFO [2020-02-20 16:30:36,807] ({Thread-3} RemoteInterpreterServer.java[run]:203) - Starting remote interpreter server on port 39755
+ INFO [2020-02-20 16:30:37,814] ({Thread-4} RemoteInterpreterUtils.java[registerInterpreter]:165) - callbackHost: 192.168.192.3, callbackPort: 41275, callbackInfo: CallbackInfo(host:192.168.192.3, port:39755)
+ INFO [2020-02-20 16:30:38,034] ({pool-1-thread-1} RemoteInterpreterServer.java[createInterpreter]:311) - Instantiate interpreter org.apache.zeppelin.spark.SparkInterpreter
+ INFO [2020-02-20 16:30:38,042] ({pool-1-thread-1} RemoteInterpreterServer.java[createInterpreter]:311) - Instantiate interpreter org.apache.zeppelin.spark.SparkSqlInterpreter
+ INFO [2020-02-20 16:30:38,047] ({pool-1-thread-1} RemoteInterpreterServer.java[createInterpreter]:311) - Instantiate interpreter org.apache.zeppelin.spark.DepInterpreter
+ INFO [2020-02-20 16:30:38,053] ({pool-1-thread-1} RemoteInterpreterServer.java[createInterpreter]:311) - Instantiate interpreter org.apache.zeppelin.spark.PySparkInterpreter
+ INFO [2020-02-20 16:30:38,063] ({pool-1-thread-1} RemoteInterpreterServer.java[createInterpreter]:311) - Instantiate interpreter org.apache.zeppelin.spark.IPySparkInterpreter
+ INFO [2020-02-20 16:30:38,066] ({pool-1-thread-1} RemoteInterpreterServer.java[createInterpreter]:311) - Instantiate interpreter org.apache.zeppelin.spark.SparkRInterpreter
+ WARN [2020-02-20 16:30:38,132] ({pool-1-thread-3} ZeppelinConfiguration.java[create]:117) - Failed to load configuration, proceeding with a default
+ INFO [2020-02-20 16:30:38,161] ({pool-1-thread-3} ZeppelinConfiguration.java[create]:129) - Server Host: 0.0.0.0
+ INFO [2020-02-20 16:30:38,162] ({pool-1-thread-3} ZeppelinConfiguration.java[create]:131) - Server Port: 8080
+ INFO [2020-02-20 16:30:38,163] ({pool-1-thread-3} ZeppelinConfiguration.java[create]:135) - Context Path: /
+ INFO [2020-02-20 16:30:38,167] ({pool-1-thread-3} ZeppelinConfiguration.java[create]:136) - Zeppelin Version: 0.8.2
+ INFO [2020-02-20 16:30:38,168] ({pool-1-thread-3} SchedulerFactory.java[<init>]:59) - Scheduler Thread Pool Size: 100
+ INFO [2020-02-20 16:30:38,300] ({pool-2-thread-5} SchedulerFactory.java[jobStarted]:114) - Job 20200220-160006_1976879117 started by scheduler interpreter_705886611
+ INFO [2020-02-20 16:30:42,512] ({pool-2-thread-5} OldSparkInterpreter.java[createSparkSession]:311) - ------ Create new SparkSession spark://spark-master:7077 -------
+ INFO [2020-02-20 16:30:42,803] ({pool-2-thread-5} Logging.scala[logInfo]:54) - Running Spark version 2.4.0
+ INFO [2020-02-20 16:30:42,841] ({pool-2-thread-5} Logging.scala[logInfo]:54) - Submitted application: Zeppelin
+ INFO [2020-02-20 16:30:42,928] ({pool-2-thread-5} Logging.scala[logInfo]:54) - Changing view acls to: root
+ INFO [2020-02-20 16:30:42,930] ({pool-2-thread-5} Logging.scala[logInfo]:54) - Changing modify acls to: root
+ INFO [2020-02-20 16:30:42,931] ({pool-2-thread-5} Logging.scala[logInfo]:54) - Changing view acls groups to: 
+ INFO [2020-02-20 16:30:42,931] ({pool-2-thread-5} Logging.scala[logInfo]:54) - Changing modify acls groups to: 
+ INFO [2020-02-20 16:30:42,932] ({pool-2-thread-5} Logging.scala[logInfo]:54) - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+ INFO [2020-02-20 16:30:43,351] ({pool-2-thread-5} Logging.scala[logInfo]:54) - Successfully started service 'sparkDriver' on port 43131.
+ INFO [2020-02-20 16:30:43,395] ({pool-2-thread-5} Logging.scala[logInfo]:54) - Registering MapOutputTracker
+ INFO [2020-02-20 16:30:43,429] ({pool-2-thread-5} Logging.scala[logInfo]:54) - Registering BlockManagerMaster
+ INFO [2020-02-20 16:30:43,436] ({pool-2-thread-5} Logging.scala[logInfo]:54) - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+ INFO [2020-02-20 16:30:43,437] ({pool-2-thread-5} Logging.scala[logInfo]:54) - BlockManagerMasterEndpoint up
+ INFO [2020-02-20 16:30:43,451] ({pool-2-thread-5} Logging.scala[logInfo]:54) - Created local directory at /tmp/blockmgr-9fdb0809-1176-4f92-b57a-0f3557fb92f3
+ INFO [2020-02-20 16:30:43,469] ({pool-2-thread-5} Logging.scala[logInfo]:54) - MemoryStore started with capacity 366.3 MB
+ INFO [2020-02-20 16:30:43,488] ({pool-2-thread-5} Logging.scala[logInfo]:54) - Registering OutputCommitCoordinator
+ INFO [2020-02-20 16:30:43,593] ({pool-2-thread-5} Log.java[initialized]:192) - Logging initialized @9129ms
+ INFO [2020-02-20 16:30:43,701] ({pool-2-thread-5} Server.java[doStart]:351) - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+ INFO [2020-02-20 16:30:44,021] ({pool-2-thread-5} Server.java[doStart]:419) - Started @9557ms
+ INFO [2020-02-20 16:30:44,050] ({pool-2-thread-5} AbstractConnector.java[doStart]:278) - Started ServerConnector@5589df2b{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+ INFO [2020-02-20 16:30:44,052] ({pool-2-thread-5} Logging.scala[logInfo]:54) - Successfully started service 'SparkUI' on port 4040.
+ INFO [2020-02-20 16:30:44,092] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@367f05f3{/jobs,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,099] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@391b214c{/jobs/json,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,101] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@243666b{/jobs/job,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,103] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@2f5ea9a9{/jobs/job/json,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,105] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@4faffc4f{/stages,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,107] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@56c6abef{/stages/json,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,109] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@42de52b8{/stages/stage,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,111] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@4b902d43{/stages/stage/json,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,113] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@7bebfd1b{/stages/pool,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,118] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@5e9cc02d{/stages/pool/json,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,121] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@251ec0fe{/storage,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,123] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@6f2e0b2b{/storage/json,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,124] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@4b0930f0{/storage/rdd,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,126] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@73ac1c14{/storage/rdd/json,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,128] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@20662baf{/environment,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,131] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@3f8e0bdb{/environment/json,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,133] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@3d82226a{/executors,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,137] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@2e5dd572{/executors/json,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,139] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@3f77a845{/executors/threadDump,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,141] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@7068bca3{/executors/threadDump/json,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,155] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@5cd551b6{/static,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,157] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@4897d440{/,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,160] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@4c807d2{/api,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,161] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@603eff5b{/jobs/job/kill,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,163] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@411b979b{/stages/stage/kill,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:44,167] ({pool-2-thread-5} Logging.scala[logInfo]:54) - Bound SparkUI to 0.0.0.0, and started at http://zeppelin:4040
+ INFO [2020-02-20 16:30:44,199] ({pool-2-thread-5} Logging.scala[logInfo]:54) - Added JAR file:/zeppelin/interpreter/spark/spark-interpreter-0.8.2.jar at spark://zeppelin:43131/jars/spark-interpreter-0.8.2.jar with timestamp 1582216244198
+ WARN [2020-02-20 16:30:44,327] ({pool-2-thread-5} Logging.scala[logWarning]:66) - Fair Scheduler configuration file not found so jobs will be scheduled in FIFO order. To use fair scheduling, configure pools in fairscheduler.xml or set spark.scheduler.allocation.file to a file that contains the configuration.
+ INFO [2020-02-20 16:30:44,353] ({pool-2-thread-5} Logging.scala[logInfo]:54) - Created default pool: default, schedulingMode: FIFO, minShare: 0, weight: 1
+ INFO [2020-02-20 16:30:44,425] ({appclient-register-master-threadpool-0} Logging.scala[logInfo]:54) - Connecting to master spark://spark-master:7077...
+ INFO [2020-02-20 16:30:44,481] ({netty-rpc-connection-0} TransportClientFactory.java[createClient]:267) - Successfully created connection to spark-master/192.168.192.5:7077 after 34 ms (0 ms spent in bootstraps)
+ INFO [2020-02-20 16:30:44,646] ({dispatcher-event-loop-1} Logging.scala[logInfo]:54) - Connected to Spark cluster with app ID app-20200220163044-0000
+ INFO [2020-02-20 16:30:44,663] ({pool-2-thread-5} Logging.scala[logInfo]:54) - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 32855.
+ INFO [2020-02-20 16:30:44,665] ({pool-2-thread-5} Logging.scala[logInfo]:54) - Server created on zeppelin:32855
+ INFO [2020-02-20 16:30:44,669] ({pool-2-thread-5} Logging.scala[logInfo]:54) - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+ INFO [2020-02-20 16:30:44,704] ({dispatcher-event-loop-0} Logging.scala[logInfo]:54) - Executor added: app-20200220163044-0000/0 on worker-20200220162842-192.168.192.6-36775 (192.168.192.6:36775) with 4 core(s)
+ INFO [2020-02-20 16:30:44,706] ({dispatcher-event-loop-0} Logging.scala[logInfo]:54) - Granted executor ID app-20200220163044-0000/0 on hostPort 192.168.192.6:36775 with 4 core(s), 2.0 GB RAM
+ INFO [2020-02-20 16:30:44,719] ({dispatcher-event-loop-2} Logging.scala[logInfo]:54) - Executor added: app-20200220163044-0000/1 on worker-20200220162843-192.168.192.7-46107 (192.168.192.7:46107) with 4 core(s)
+ INFO [2020-02-20 16:30:44,721] ({dispatcher-event-loop-2} Logging.scala[logInfo]:54) - Granted executor ID app-20200220163044-0000/1 on hostPort 192.168.192.7:46107 with 4 core(s), 2.0 GB RAM
+ INFO [2020-02-20 16:30:44,771] ({pool-2-thread-5} Logging.scala[logInfo]:54) - Registering BlockManager BlockManagerId(driver, zeppelin, 32855, None)
+ INFO [2020-02-20 16:30:44,778] ({dispatcher-event-loop-3} Logging.scala[logInfo]:54) - Registering block manager zeppelin:32855 with 366.3 MB RAM, BlockManagerId(driver, zeppelin, 32855, None)
+ INFO [2020-02-20 16:30:44,787] ({pool-2-thread-5} Logging.scala[logInfo]:54) - Registered BlockManager BlockManagerId(driver, zeppelin, 32855, None)
+ INFO [2020-02-20 16:30:44,789] ({pool-2-thread-5} Logging.scala[logInfo]:54) - Initialized BlockManager: BlockManagerId(driver, zeppelin, 32855, None)
+ INFO [2020-02-20 16:30:44,932] ({dispatcher-event-loop-1} Logging.scala[logInfo]:54) - Executor updated: app-20200220163044-0000/0 is now RUNNING
+ INFO [2020-02-20 16:30:44,941] ({dispatcher-event-loop-1} Logging.scala[logInfo]:54) - Executor updated: app-20200220163044-0000/1 is now RUNNING
+ INFO [2020-02-20 16:30:45,465] ({pool-2-thread-5} ContextHandler.java[doStart]:781) - Started o.s.j.s.ServletContextHandler@46545d75{/metrics/json,null,AVAILABLE,@Spark}
+ INFO [2020-02-20 16:30:45,602] ({pool-2-thread-5} Logging.scala[logInfo]:54) - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+ INFO [2020-02-20 16:30:45,633] ({pool-2-thread-5} OldSparkInterpreter.java[createSparkSession]:347) - Created Spark session with Hive support
+ INFO [2020-02-20 16:30:54,443] ({dispatcher-event-loop-3} Logging.scala[logInfo]:54) - Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.192.7:60974) with ID 1
+ INFO [2020-02-20 16:30:55,722] ({dispatcher-event-loop-3} Logging.scala[logInfo]:54) - Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.192.6:59322) with ID 0
+ INFO [2020-02-20 16:30:56,651] ({dispatcher-event-loop-0} Logging.scala[logInfo]:54) - Registering block manager 192.168.192.6:42365 with 912.3 MB RAM, BlockManagerId(0, 192.168.192.6, 42365, None)
+ INFO [2020-02-20 16:30:56,671] ({dispatcher-event-loop-0} Logging.scala[logInfo]:54) - Registering block manager 192.168.192.7:33273 with 912.3 MB RAM, BlockManagerId(1, 192.168.192.7, 33273, None)
+ INFO [2020-02-20 16:31:02,534] ({pool-2-thread-5} SparkShims.java[loadShims]:62) - Initializing shims for Spark 2.x
+ INFO [2020-02-20 16:31:02,546] ({pool-2-thread-5} OldSparkInterpreter.java[populateSparkWebUrl]:931) - Sending metadata to Zeppelin server: {message=Spark UI enabled, url=http://zeppelin:4040}
+ INFO [2020-02-20 16:31:02,829] ({pool-2-thread-5} SchedulerFactory.java[jobFinished]:120) - Job 20200220-160006_1976879117 finished by scheduler interpreter_705886611
+ INFO [2020-02-20 16:57:18,234] ({pool-2-thread-5} SchedulerFactory.java[jobStarted]:114) - Job 20200220-160006_1976879117 started by scheduler interpreter_705886611
+ INFO [2020-02-20 16:57:18,266] ({pool-2-thread-5} OldSparkInterpreter.java[populateSparkWebUrl]:931) - Sending metadata to Zeppelin server: {message=Spark UI enabled, url=http://zeppelin:4040}
+ INFO [2020-02-20 16:57:18,485] ({pool-2-thread-5} SchedulerFactory.java[jobFinished]:120) - Job 20200220-160006_1976879117 finished by scheduler interpreter_705886611
+ INFO [2020-02-20 17:01:51,922] ({pool-2-thread-6} SchedulerFactory.java[jobStarted]:114) - Job 20200220-160006_1976879117 started by scheduler interpreter_705886611
+ INFO [2020-02-20 17:01:51,930] ({pool-2-thread-6} OldSparkInterpreter.java[populateSparkWebUrl]:931) - Sending metadata to Zeppelin server: {message=Spark UI enabled, url=http://zeppelin:4040}
+ INFO [2020-02-20 17:01:52,451] ({pool-2-thread-6} SchedulerFactory.java[jobFinished]:120) - Job 20200220-160006_1976879117 finished by scheduler interpreter_705886611
+ INFO [2020-02-20 17:04:23,163] ({pool-2-thread-5} SchedulerFactory.java[jobStarted]:114) - Job 20200220-160006_1976879117 started by scheduler interpreter_705886611
+ INFO [2020-02-20 17:04:23,169] ({pool-2-thread-5} OldSparkInterpreter.java[populateSparkWebUrl]:931) - Sending metadata to Zeppelin server: {message=Spark UI enabled, url=http://zeppelin:4040}
+ INFO [2020-02-20 17:04:23,535] ({pool-2-thread-5} SchedulerFactory.java[jobFinished]:120) - Job 20200220-160006_1976879117 finished by scheduler interpreter_705886611
+ INFO [2020-02-20 17:22:19,485] ({pool-2-thread-7} SchedulerFactory.java[jobStarted]:114) - Job 20200220-160006_1976879117 started by scheduler interpreter_705886611
+ INFO [2020-02-20 17:22:19,512] ({pool-2-thread-7} OldSparkInterpreter.java[populateSparkWebUrl]:931) - Sending metadata to Zeppelin server: {message=Spark UI enabled, url=http://zeppelin:4040}
+ INFO [2020-02-20 17:22:19,710] ({pool-2-thread-7} SchedulerFactory.java[jobFinished]:120) - Job 20200220-160006_1976879117 finished by scheduler interpreter_705886611
+ERROR [2020-02-20 18:21:31,845] ({dispatcher-event-loop-1} Logging.scala[logError]:70) - Lost executor 0 on 192.168.192.6: Remote RPC client disassociated. Likely due to containers exceeding thresholds, or network issues. Check driver logs for WARN messages.
+ERROR [2020-02-20 18:21:31,881] ({dispatcher-event-loop-1} Logging.scala[logError]:70) - Lost executor 1 on 192.168.192.7: Remote RPC client disassociated. Likely due to containers exceeding thresholds, or network issues. Check driver logs for WARN messages.
+ INFO [2020-02-20 18:21:31,886] ({dag-scheduler-event-loop} Logging.scala[logInfo]:54) - Executor lost: 0 (epoch 0)
+ INFO [2020-02-20 18:21:31,891] ({dispatcher-event-loop-0} Logging.scala[logInfo]:54) - Trying to remove executor 0 from BlockManagerMaster.
+ INFO [2020-02-20 18:21:31,898] ({dispatcher-event-loop-0} Logging.scala[logInfo]:54) - Removing block manager BlockManagerId(0, 192.168.192.6, 42365, None)
+ INFO [2020-02-20 18:21:31,901] ({dag-scheduler-event-loop} Logging.scala[logInfo]:54) - Removed 0 successfully in removeExecutor
+ INFO [2020-02-20 18:21:31,905] ({dag-scheduler-event-loop} Logging.scala[logInfo]:54) - Shuffle files lost for executor: 0 (epoch 0)
+ INFO [2020-02-20 18:21:31,912] ({dag-scheduler-event-loop} Logging.scala[logInfo]:54) - Executor lost: 1 (epoch 1)
+ INFO [2020-02-20 18:21:31,913] ({dispatcher-event-loop-1} Logging.scala[logInfo]:54) - Trying to remove executor 1 from BlockManagerMaster.
+ INFO [2020-02-20 18:21:31,914] ({dispatcher-event-loop-1} Logging.scala[logInfo]:54) - Removing block manager BlockManagerId(1, 192.168.192.7, 33273, None)
+ INFO [2020-02-20 18:21:31,915] ({dag-scheduler-event-loop} Logging.scala[logInfo]:54) - Removed 1 successfully in removeExecutor
+ INFO [2020-02-20 18:21:31,915] ({dag-scheduler-event-loop} Logging.scala[logInfo]:54) - Shuffle files lost for executor: 1 (epoch 1)
+ INFO [2020-02-20 18:21:33,126] ({dispatcher-event-loop-3} Logging.scala[logInfo]:54) - Executor updated: app-20200220163044-0000/1 is now LOST (worker lost)
+ INFO [2020-02-20 18:21:33,133] ({dispatcher-event-loop-3} Logging.scala[logInfo]:54) - Executor app-20200220163044-0000/1 removed: worker lost
+ INFO [2020-02-20 18:21:33,153] ({dispatcher-event-loop-1} Logging.scala[logInfo]:54) - Trying to remove executor 1 from BlockManagerMaster.
+ INFO [2020-02-20 18:21:33,155] ({dispatcher-event-loop-3} Logging.scala[logInfo]:54) - Removal of executor 1 requested
+ INFO [2020-02-20 18:21:33,157] ({dispatcher-event-loop-3} Logging.scala[logInfo]:54) - Asked to remove non-existent executor 1
+ INFO [2020-02-20 18:21:33,188] ({dispatcher-event-loop-2} Logging.scala[logInfo]:54) - Master removed worker worker-20200220162843-192.168.192.7-46107: 192.168.192.7:46107 got disassociated
+ INFO [2020-02-20 18:21:33,192] ({dispatcher-event-loop-2} Logging.scala[logInfo]:54) - Worker worker-20200220162843-192.168.192.7-46107 removed: 192.168.192.7:46107 got disassociated
+ INFO [2020-02-20 18:21:33,204] ({dispatcher-event-loop-0} Logging.scala[logInfo]:54) - Handle removed worker worker-20200220162843-192.168.192.7-46107: 192.168.192.7:46107 got disassociated
+ INFO [2020-02-20 18:21:33,206] ({dispatcher-event-loop-1} Logging.scala[logInfo]:54) - Executor updated: app-20200220163044-0000/0 is now LOST (worker lost)
+ INFO [2020-02-20 18:21:33,209] ({dispatcher-event-loop-1} Logging.scala[logInfo]:54) - Executor app-20200220163044-0000/0 removed: worker lost
+ INFO [2020-02-20 18:21:33,210] ({dispatcher-event-loop-1} Logging.scala[logInfo]:54) - Master removed worker worker-20200220162842-192.168.192.6-36775: 192.168.192.6:36775 got disassociated
+ INFO [2020-02-20 18:21:33,211] ({dispatcher-event-loop-0} Logging.scala[logInfo]:54) - Removal of executor 0 requested
+ INFO [2020-02-20 18:21:33,213] ({dag-scheduler-event-loop} Logging.scala[logInfo]:54) - Shuffle files lost for worker worker-20200220162843-192.168.192.7-46107 on host 192.168.192.7
+ INFO [2020-02-20 18:21:33,212] ({dispatcher-event-loop-1} Logging.scala[logInfo]:54) - Worker worker-20200220162842-192.168.192.6-36775 removed: 192.168.192.6:36775 got disassociated
+ INFO [2020-02-20 18:21:33,213] ({dispatcher-event-loop-0} Logging.scala[logInfo]:54) - Asked to remove non-existent executor 0
+ INFO [2020-02-20 18:21:33,214] ({dispatcher-event-loop-2} Logging.scala[logInfo]:54) - Trying to remove executor 0 from BlockManagerMaster.
+ INFO [2020-02-20 18:21:33,217] ({dispatcher-event-loop-0} Logging.scala[logInfo]:54) - Handle removed worker worker-20200220162842-192.168.192.6-36775: 192.168.192.6:36775 got disassociated
+ INFO [2020-02-20 18:21:33,220] ({dag-scheduler-event-loop} Logging.scala[logInfo]:54) - Shuffle files lost for worker worker-20200220162842-192.168.192.6-36775 on host 192.168.192.6
+ WARN [2020-02-20 18:21:42,984] ({dispatcher-event-loop-2} Logging.scala[logWarning]:66) - Connection to spark-master:7077 failed; waiting for master to reconnect...
+ WARN [2020-02-20 18:21:42,987] ({dispatcher-event-loop-2} Logging.scala[logWarning]:66) - Disconnected from Spark cluster! Waiting for reconnection...
+ WARN [2020-02-20 18:21:42,988] ({dispatcher-event-loop-2} Logging.scala[logWarning]:66) - Connection to spark-master:7077 failed; waiting for master to reconnect...
+ INFO [2020-02-20 18:21:48,140] ({pool-1-thread-1} OldSparkInterpreter.java[close]:1243) - Close interpreter
+ INFO [2020-02-20 18:21:48,157] ({pool-1-thread-1} AbstractConnector.java[doStop]:318) - Stopped Spark@5589df2b{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+ INFO [2020-02-20 18:21:48,161] ({pool-1-thread-1} Logging.scala[logInfo]:54) - Stopped Spark web UI at http://zeppelin:4040
+ INFO [2020-02-20 18:21:48,175] ({pool-1-thread-1} Logging.scala[logInfo]:54) - Shutting down all executors
+ INFO [2020-02-20 18:21:48,176] ({dispatcher-event-loop-0} Logging.scala[logInfo]:54) - Asking each executor to shut down
+ INFO [2020-02-20 18:21:48,208] ({dispatcher-event-loop-2} Logging.scala[logInfo]:54) - MapOutputTrackerMasterEndpoint stopped!
+ INFO [2020-02-20 18:21:48,261] ({pool-1-thread-1} Logging.scala[logInfo]:54) - MemoryStore cleared
+ INFO [2020-02-20 18:21:48,263] ({pool-1-thread-1} Logging.scala[logInfo]:54) - BlockManager stopped
+ INFO [2020-02-20 18:21:48,265] ({pool-1-thread-1} Logging.scala[logInfo]:54) - BlockManagerMaster stopped
+ INFO [2020-02-20 18:21:48,279] ({dispatcher-event-loop-2} Logging.scala[logInfo]:54) - OutputCommitCoordinator stopped!
+ INFO [2020-02-20 18:21:48,287] ({pool-1-thread-1} Logging.scala[logInfo]:54) - Successfully stopped SparkContext
+ INFO [2020-02-20 18:21:48,352] ({pool-1-thread-1} RemoteInterpreterServer.java[shutdown]:209) - Shutting down...
+ INFO [2020-02-20 18:21:50,493] ({Thread-1} Logging.scala[logInfo]:54) - Shutdown hook called
+ INFO [2020-02-20 18:21:50,502] ({Thread-1} Logging.scala[logInfo]:54) - Deleting directory /tmp/spark-edb2dfa3-b5f8-4d5b-ac48-b48b1ea42478
+ INFO [2020-02-20 18:21:50,510] ({Thread-1} Logging.scala[logInfo]:54) - Deleting directory /tmp/spark-a7e14e31-db56-4b7b-9100-c26d58d39c48
+ INFO [2020-02-20 18:21:50,514] ({Thread-1} Logging.scala[logInfo]:54) - Deleting directory /tmp/spark-bf69b886-4ca5-4967-bce7-f379310bfd70

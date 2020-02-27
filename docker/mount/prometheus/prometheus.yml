@@ -1,0 +1,12 @@
+global:
+  scrape_interval:     5s # By default, scrape targets every 20 seconds.
+  evaluation_interval: 5s # By default, scrape targets every 20 seconds.
+  # scrape_timeout is set to the global default (10s).
+
+# A scrape configuration containing exactly one endpoint to scrape:
+# Here it's Prometheus itself.
+scrape_configs:
+  - job_name: 'kafka'
+    scrape_interval: 5s
+    target_groups:
+      - targets: ['broker:9080','broker2:9081','broker3:9082']

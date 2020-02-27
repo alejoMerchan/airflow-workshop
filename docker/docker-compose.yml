@@ -1,0 +1,110 @@
+---
+version: '3.7'
+
+services:
+
+  postgres:
+    image: postgres:9.6
+    hostname: postgresql
+    environment:
+        - POSTGRES_USER=airflow
+        - POSTGRES_PASSWORD=airflow
+        - POSTGRES_DB=airflow
+    logging:
+        options:
+            max-size: 10m
+            max-file: "3"
+    
+  airflow:
+    image: airflowbook/airflow
+    depends_on:
+      - postgres
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql://airflow:airflow@postgres:5432/airflow
+      - AIRFLOW__WEBSERVER__EXPOSE_CONFIG=True
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=True
+      - AIRFLOW__WEBSERVER__DAG_DEFAULT_VIEW=graph
+      - AIRFLOW__SCHEDULER__DAG_DIR_LIST_INTERVAL=10
+    ports:
+      - "18080:8080"
+    volumes:
+      - ../dags:/root/airflow/dags
+      - ../plugins:/root/airflow/plugins
+      - ./share-data:/data
+    working_dir: /root/airflow
+        
+  spark-master:
+    build:
+      context: spark-master/
+    container_name: spark-master
+    hostname: spark-master
+    depends_on:
+      - zeppelin   
+    ports:
+      - "18081:8080"
+      - "7077:7077"
+      - 14040:4040
+      - 33139-33155:33139-33155
+      - 45029-45045:45029-45045
+    environment:
+      - INIT_DAEMON_STEP=setup_spark        
+    volumes:
+      - ./share-data:/zeppelin/data
+      
+  spark-worker-1:
+    build:
+      context: spark-worker/
+    container_name: spark-worker-1
+    hostname: spark-worker-1
+    depends_on:
+      - spark-master
+    ports:
+      - "18082:8081"
+    environment:
+      - "SPARK_MASTER=spark://spark-master:7077"
+    volumes:
+      - ./share-data:/zeppelin/data
+
+  spark-worker-2:
+    build:
+      context: spark-worker/
+    container_name: spark-worker-2
+    hostname: spark-worker-2
+    depends_on:
+      - spark-master
+    ports:
+      - "18083:8081"
+    environment:
+      - "SPARK_MASTER=spark://spark-master:7077"
+    volumes:
+      - ./share-data:/zeppelin/data
+
+  zeppelin:
+    container_name: zeppelin
+    hostname: zeppelin
+    build:
+      context: zeppelin/
+    restart: unless-stopped
+    environment:
+      ZEPPELIN_ADDR: "0.0.0.0"
+      ZEPPELIN_INTERPRETER_LOCALREPO: /usr/local/local-repo      
+      ZEPPELIN_JAVA_OPTS: >-
+        -Dspark.driver.memory=1g
+        -Dspark.executor.memory=2g
+      MASTER: "spark://spark-master:7077"    
+    volumes:
+      - ./logs:/zeppelin/logs
+      - ./notebooks:/zeppelin/notebook
+      - ./sample-data:/sample-data:ro
+      - ./zeppelin/conf/interpreter.json:/zeppelin/conf/interpreter.json
+      - ./share-data:/zeppelin/data
+    ports:
+      - 18090:8080
+      - 14041:4040      
+    labels:
+      container_group: "notebook"                
+
+volumes:
+  share-data:      

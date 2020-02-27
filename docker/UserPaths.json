@@ -1,0 +1,13 @@
+{
+"jsonpaths": [
+"$['favourites_count']",
+"$['name']",
+"$['friends_count']",
+"$['created_at']",
+"$['location']",
+"$['screen_name']",
+"$['id_str']",
+"$['statuses_count']",
+"$['description']"
+]
+}

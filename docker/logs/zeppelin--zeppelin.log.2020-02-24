@@ -1,0 +1,1415 @@
+ WARN [2020-02-20 04:07:35,466] ({main} ZeppelinConfiguration.java[create]:117) - Failed to load configuration, proceeding with a default
+ INFO [2020-02-20 04:07:35,584] ({main} ZeppelinConfiguration.java[create]:129) - Server Host: 0.0.0.0
+ INFO [2020-02-20 04:07:35,602] ({main} ZeppelinConfiguration.java[create]:131) - Server Port: 8080
+ INFO [2020-02-20 04:07:35,608] ({main} ZeppelinConfiguration.java[create]:135) - Context Path: /
+ INFO [2020-02-20 04:07:35,616] ({main} ZeppelinConfiguration.java[create]:136) - Zeppelin Version: 0.8.2
+ INFO [2020-02-20 04:07:35,661] ({main} Log.java[initialized]:193) - Logging initialized @1195ms to org.eclipse.jetty.util.log.Slf4jLog
+ WARN [2020-02-20 04:07:35,853] ({main} ServerConnector.java[setSoLingerTime]:458) - Ignoring deprecated socket close linger time
+ INFO [2020-02-20 04:07:35,956] ({main} ZeppelinServer.java[setupWebAppContext]:413) - ZeppelinServer Webapp path: /zeppelin/webapps
+ INFO [2020-02-20 04:07:36,108] ({main} ZeppelinServer.java[main]:239) - Starting zeppelin server
+ INFO [2020-02-20 04:07:36,116] ({main} Server.java[doStart]:370) - jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 1.8.0_222-8u222-b10-1ubuntu1~16.04.1-b10
+ INFO [2020-02-20 04:07:40,736] ({main} StandardDescriptorProcessor.java[visitServlet]:283) - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+ INFO [2020-02-20 04:07:40,772] ({main} DefaultSessionIdManager.java[doStart]:365) - DefaultSessionIdManager workerName=node0
+ INFO [2020-02-20 04:07:40,773] ({main} DefaultSessionIdManager.java[doStart]:370) - No SessionScavenger set, using defaults
+ INFO [2020-02-20 04:07:40,778] ({main} HouseKeeper.java[startScavenging]:149) - node0 Scavenging every 600000ms
+ INFO [2020-02-20 04:07:41,464] ({main} SchedulerFactory.java[<init>]:59) - Scheduler Thread Pool Size: 100
+ WARN [2020-02-20 04:07:41,488] ({main} ZeppelinConfiguration.java[getConfigFSDir]:527) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir
+ WARN [2020-02-20 04:07:41,491] ({main} ZeppelinConfiguration.java[getConfigFSDir]:527) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir
+ INFO [2020-02-20 04:07:41,636] ({main} InterpreterSettingManager.java[<init>]:165) - Using RecoveryStorage: org.apache.zeppelin.interpreter.recovery.NullRecoveryStorage
+ INFO [2020-02-20 04:07:41,641] ({main} InterpreterSettingManager.java[<init>]:169) - Using LifecycleManager: org.apache.zeppelin.interpreter.lifecycle.NullLifecycleManager
+ INFO [2020-02-20 04:07:41,744] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: sh
+ INFO [2020-02-20 04:07:41,773] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: hbase
+ INFO [2020-02-20 04:07:41,789] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: lens
+ INFO [2020-02-20 04:07:41,811] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: angular
+ WARN [2020-02-20 04:07:41,856] ({main} InterpreterSettingManager.java[init]:331) - No interpreter-setting.json found in /zeppelin/interpreter/${interpreter.name}
+ INFO [2020-02-20 04:07:41,890] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: livy
+ WARN [2020-02-20 04:07:41,989] ({main} InterpreterSettingManager.java[init]:331) - No interpreter-setting.json found in /zeppelin/interpreter/scio
+ INFO [2020-02-20 04:07:42,005] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: file
+ INFO [2020-02-20 04:07:42,023] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: md
+ INFO [2020-02-20 04:07:42,027] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: groovy
+ INFO [2020-02-20 04:07:42,072] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: kylin
+ INFO [2020-02-20 04:07:42,080] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: elasticsearch
+ INFO [2020-02-20 04:07:42,095] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: cassandra
+ INFO [2020-02-20 04:07:42,105] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: alluxio
+ INFO [2020-02-20 04:07:42,122] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: flink
+ INFO [2020-02-20 04:07:42,134] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: python
+ INFO [2020-02-20 04:07:42,175] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: spark
+ INFO [2020-02-20 04:07:42,187] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: pig
+ INFO [2020-02-20 04:07:42,200] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: jdbc
+ INFO [2020-02-20 04:07:42,219] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: ignite
+ INFO [2020-02-20 04:07:42,250] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: sap
+ INFO [2020-02-20 04:07:42,260] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: bigquery
+ WARN [2020-02-20 04:07:42,271] ({main} InterpreterSettingManager.java[init]:331) - No interpreter-setting.json found in /zeppelin/interpreter/lib
+ INFO [2020-02-20 04:07:42,300] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:425) - Register InterpreterSettingTemplate: neo4j
+ INFO [2020-02-20 04:07:42,303] ({main} LocalConfigStorage.java[loadInterpreterSettings]:63) - Load Interpreter Setting from file: /zeppelin/conf/interpreter.json
+ INFO [2020-02-20 04:07:42,682] ({main} InterpreterSettingManager.java[loadFromFile]:279) - Create Interpreter Setting ignite from interpreter.json
+ INFO [2020-02-20 04:07:42,690] ({main} InterpreterSettingManager.java[loadFromFile]:279) - Create Interpreter Setting python from interpreter.json
+ INFO [2020-02-20 04:07:42,701] ({main} InterpreterSettingManager.java[loadFromFile]:279) - Create Interpreter Setting sap from interpreter.json
+ INFO [2020-02-20 04:07:42,716] ({main} InterpreterSettingManager.java[loadFromFile]:279) - Create Interpreter Setting jdbc from interpreter.json
+ INFO [2020-02-20 04:07:42,722] ({main} InterpreterSettingManager.java[loadFromFile]:279) - Create Interpreter Setting lens from interpreter.json
+ INFO [2020-02-20 04:07:42,728] ({main} InterpreterSettingManager.java[loadFromFile]:279) - Create Interpreter Setting pig from interpreter.json
+ INFO [2020-02-20 04:07:42,732] ({main} InterpreterSettingManager.java[loadFromFile]:279) - Create Interpreter Setting flink from interpreter.json
+ INFO [2020-02-20 04:07:42,734] ({main} InterpreterSettingManager.java[loadFromFile]:279) - Create Interpreter Setting angular from interpreter.json
+ INFO [2020-02-20 04:07:42,740] ({main} InterpreterSettingManager.java[loadFromFile]:279) - Create Interpreter Setting livy from interpreter.json
+ INFO [2020-02-20 04:07:42,750] ({main} InterpreterSettingManager.java[loadFromFile]:279) - Create Interpreter Setting neo4j from interpreter.json
+ INFO [2020-02-20 04:07:42,755] ({main} InterpreterSettingManager.java[loadFromFile]:279) - Create Interpreter Setting file from interpreter.json
+ INFO [2020-02-20 04:07:42,763] ({main} InterpreterSettingManager.java[loadFromFile]:279) - Create Interpreter Setting groovy from interpreter.json
+ INFO [2020-02-20 04:07:42,768] ({main} InterpreterSettingManager.java[loadFromFile]:279) - Create Interpreter Setting elasticsearch from interpreter.json
+ INFO [2020-02-20 04:07:42,778] ({main} InterpreterSettingManager.java[loadFromFile]:279) - Create Interpreter Setting redshift from interpreter.json
+ INFO [2020-02-20 04:07:42,789] ({main} InterpreterSettingManager.java[loadFromFile]:279) - Create Interpreter Setting cassandra from interpreter.json
+ INFO [2020-02-20 04:07:42,792] ({main} InterpreterSettingManager.java[loadFromFile]:279) - Create Interpreter Setting sh from interpreter.json
+ INFO [2020-02-20 04:07:42,801] ({main} InterpreterSettingManager.java[loadFromFile]:279) - Create Interpreter Setting spark from interpreter.json
+ INFO [2020-02-20 04:07:42,808] ({main} InterpreterSettingManager.java[loadFromFile]:279) - Create Interpreter Setting md from interpreter.json
+ INFO [2020-02-20 04:07:42,810] ({main} InterpreterSettingManager.java[loadFromFile]:279) - Create Interpreter Setting alluxio from interpreter.json
+ INFO [2020-02-20 04:07:42,812] ({main} InterpreterSettingManager.java[loadFromFile]:279) - Create Interpreter Setting bigquery from interpreter.json
+ INFO [2020-02-20 04:07:42,818] ({main} InterpreterSettingManager.java[loadFromFile]:279) - Create Interpreter Setting hbase from interpreter.json
+ INFO [2020-02-20 04:07:42,825] ({main} InterpreterSettingManager.java[loadFromFile]:279) - Create Interpreter Setting kylin from interpreter.json
+ INFO [2020-02-20 04:07:42,974] ({main} LocalConfigStorage.java[save]:53) - Save Interpreter Setting to /zeppelin/conf/interpreter.json
+ INFO [2020-02-20 04:07:43,591] ({main} VfsLog.java[info]:138) - Using "/tmp/vfs_cache" as temporary files store.
+ INFO [2020-02-20 04:07:43,903] ({main} GitNotebookRepo.java[<init>]:64) - Opening a git repo at '/zeppelin/notebook'
+ INFO [2020-02-20 04:07:44,421] ({main} NotebookRepoSync.java[<init>]:77) - Instantiate NotebookRepo: org.apache.zeppelin.notebook.repo.GitNotebookRepo
+ WARN [2020-02-20 04:07:44,666] ({main} NotebookAuthorization.java[getInstance]:86) - Notebook authorization module was called without initialization, initializing with default configuration
+ WARN [2020-02-20 04:07:44,668] ({main} LocalConfigStorage.java[loadNotebookAuthorization]:77) - NotebookAuthorization file /zeppelin/conf/notebook-authorization.json is not existed
+ INFO [2020-02-20 04:07:44,671] ({main} Credentials.java[loadFromFile]:121) - /zeppelin/conf/credentials.json
+ INFO [2020-02-20 04:07:44,796] ({main} StdSchedulerFactory.java[instantiate]:1184) - Using default implementation for ThreadExecutor
+ INFO [2020-02-20 04:07:44,820] ({main} SimpleThreadPool.java[initialize]:268) - Job execution threads will use class loader of thread: main
+ INFO [2020-02-20 04:07:44,909] ({main} SchedulerSignalerImpl.java[<init>]:61) - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+ INFO [2020-02-20 04:07:44,927] ({main} QuartzScheduler.java[<init>]:240) - Quartz Scheduler v.2.2.1 created.
+ INFO [2020-02-20 04:07:44,936] ({main} RAMJobStore.java[initialize]:155) - RAMJobStore initialized.
+ INFO [2020-02-20 04:07:44,939] ({main} QuartzScheduler.java[initialize]:305) - Scheduler meta-data: Quartz Scheduler (v2.2.1) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+ INFO [2020-02-20 04:07:44,941] ({main} StdSchedulerFactory.java[instantiate]:1339) - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+ INFO [2020-02-20 04:07:44,943] ({main} StdSchedulerFactory.java[instantiate]:1343) - Quartz scheduler version: 2.2.1
+ INFO [2020-02-20 04:07:44,944] ({main} QuartzScheduler.java[start]:575) - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+ INFO [2020-02-20 04:07:45,524] ({main} FolderView.java[createFolder]:107) - Create folder /
+ INFO [2020-02-20 04:07:45,525] ({main} Folder.java[setParent]:169) - Set parent of / to /
+ INFO [2020-02-20 04:07:45,526] ({main} Folder.java[addNote]:185) - Add note 2EXBGWKU1 to folder /
+ WARN [2020-02-20 04:07:45,529] ({main} Notebook.java[refreshCron]:981) - execution of the cron job is skipped cron is not enabled from Zeppelin server
+ INFO [2020-02-20 04:07:45,587] ({main} Folder.java[addNote]:185) - Add note 2EXQEGYMG to folder /
+ WARN [2020-02-20 04:07:45,590] ({main} Notebook.java[refreshCron]:981) - execution of the cron job is skipped cron is not enabled from Zeppelin server
+ INFO [2020-02-20 04:07:45,641] ({main} Folder.java[addNote]:185) - Add note 2EXQP4H7Q to folder /
+ WARN [2020-02-20 04:07:45,643] ({main} Notebook.java[refreshCron]:981) - execution of the cron job is skipped cron is not enabled from Zeppelin server
+ INFO [2020-02-20 04:07:45,690] ({main} Folder.java[addNote]:185) - Add note 2EXSBN97B to folder /
+ WARN [2020-02-20 04:07:45,698] ({main} Notebook.java[refreshCron]:981) - execution of the cron job is skipped cron is not enabled from Zeppelin server
+ INFO [2020-02-20 04:07:45,727] ({main} Folder.java[addNote]:185) - Add note 2EXW4GMRD to folder /
+ WARN [2020-02-20 04:07:45,730] ({main} Notebook.java[refreshCron]:981) - execution of the cron job is skipped cron is not enabled from Zeppelin server
+ INFO [2020-02-20 04:07:45,754] ({main} Folder.java[addNote]:185) - Add note 2EZ5YG7UK to folder /
+ WARN [2020-02-20 04:07:45,756] ({main} Notebook.java[refreshCron]:981) - execution of the cron job is skipped cron is not enabled from Zeppelin server
+ INFO [2020-02-20 04:07:45,787] ({main} Folder.java[addNote]:185) - Add note 2EZZ5HVRW to folder /
+ WARN [2020-02-20 04:07:45,790] ({main} Notebook.java[refreshCron]:981) - execution of the cron job is skipped cron is not enabled from Zeppelin server
+ INFO [2020-02-20 04:07:45,813] ({main} Folder.java[addNote]:185) - Add note 2F1BPEKNX to folder /
+ WARN [2020-02-20 04:07:45,815] ({main} Notebook.java[refreshCron]:981) - execution of the cron job is skipped cron is not enabled from Zeppelin server
+ INFO [2020-02-20 04:07:45,817] ({main} Notebook.java[<init>]:127) - Notebook indexing started...
+ INFO [2020-02-20 04:07:46,447] ({main} LuceneSearch.java[addIndexDocs]:305) - Indexing 8 notebooks took 620ms
+ INFO [2020-02-20 04:07:46,463] ({main} Notebook.java[<init>]:129) - Notebook indexing finished: 8 indexed in 0s
+ INFO [2020-02-20 04:07:46,469] ({main} Helium.java[loadConf]:103) - Add helium local registry /zeppelin/helium
+ INFO [2020-02-20 04:07:46,475] ({main} Helium.java[loadConf]:100) - Add helium online registry https://s3.amazonaws.com/helium-package/helium.json
+ WARN [2020-02-20 04:07:46,488] ({main} Helium.java[loadConf]:111) - /zeppelin/conf/helium.json does not exists
+ INFO [2020-02-20 04:07:52,332] ({main} ContextHandler.java[doStart]:855) - Started o.e.j.w.WebAppContext@1d548a08{zeppelin-web,/,file:///zeppelin/webapps/webapp/,AVAILABLE}{/zeppelin/zeppelin-web-0.8.2.war}
+ INFO [2020-02-20 04:07:52,352] ({main} AbstractConnector.java[doStart]:292) - Started ServerConnector@118ffcfd{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+ INFO [2020-02-20 04:07:52,353] ({main} Server.java[doStart]:407) - Started @17891ms
+ INFO [2020-02-20 04:07:52,354] ({main} ZeppelinServer.java[main]:249) - Done, zeppelin server started
+ WARN [2020-02-20 04:09:39,832] ({qtp395629617-11} SecurityRestApi.java[ticket]:88) - {"status":"OK","message":"","body":{"principal":"anonymous","ticket":"anonymous","roles":"[]"}}
+ INFO [2020-02-20 04:09:39,954] ({qtp395629617-13} NotebookServer.java[onOpen]:151) - New connection from 192.168.16.1 : 50830
+ INFO [2020-02-20 04:09:46,886] ({qtp395629617-15} NotebookServer.java[sendNote]:828) - New operation from 192.168.16.1 : 50830 : anonymous : GET_NOTE : 2EZZ5HVRW
+ WARN [2020-02-20 04:09:47,027] ({qtp395629617-15} GitNotebookRepo.java[revisionHistory]:158) - No Head found for 2EZZ5HVRW, No HEAD exists and no explicit starting revision was specified
+ WARN [2020-02-20 04:09:47,037] ({qtp395629617-15} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-02-20 04:09:47,040] ({qtp395629617-15} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-02-20 04:09:47,048] ({qtp395629617-15} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-02-20 04:09:47,053] ({qtp395629617-15} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-02-20 04:09:47,054] ({qtp395629617-15} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-02-20 04:09:47,055] ({qtp395629617-15} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ INFO [2020-02-20 04:09:47,148] ({qtp395629617-17} InterpreterSetting.java[getOrCreateInterpreterGroup]:419) - Create InterpreterGroup with groupId: spark:shared_process for user: anonymous and note: 2EZZ5HVRW
+ INFO [2020-02-20 04:09:47,157] ({qtp395629617-17} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.spark.SparkInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2020-02-20 04:09:47,158] ({qtp395629617-17} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.spark.SparkSqlInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2020-02-20 04:09:47,160] ({qtp395629617-17} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.spark.DepInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2020-02-20 04:09:47,162] ({qtp395629617-17} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.spark.PySparkInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2020-02-20 04:09:47,163] ({qtp395629617-17} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.spark.IPySparkInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2020-02-20 04:09:47,164] ({qtp395629617-17} InterpreterSetting.java[createInterpreters]:689) - Interpreter org.apache.zeppelin.spark.SparkRInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2020-02-20 04:09:47,177] ({qtp395629617-17} ManagedInterpreterGroup.java[getOrCreateSession]:158) - Create Session: shared_session in InterpreterGroup: spark:shared_process for user: anonymous
+ INFO [2020-02-20 04:09:54,369] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:10:01,973] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:10:02,012] ({pool-2-thread-2} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:10:02,014] ({pool-2-thread-2} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 04:10:02,016] ({pool-2-thread-2} ManagedInterpreterGroup.java[getOrCreateInterpreterProcess]:61) - Create InterpreterProcess for InterpreterGroup: spark:shared_process
+ INFO [2020-02-20 04:10:02,018] ({pool-2-thread-2} ShellScriptLauncher.java[launch]:48) - Launching Interpreter: spark
+ INFO [2020-02-20 04:10:02,029] ({pool-2-thread-2} SparkInterpreterLauncher.java[buildEnvFromProperties]:108) - Run Spark under non-secure mode as no keytab and principal is specified
+ INFO [2020-02-20 04:10:02,041] ({pool-2-thread-2} RemoteInterpreterManagedProcess.java[start]:115) - Thrift server for callback will start. Port: 45663
+ INFO [2020-02-20 04:10:02,056] ({pool-2-thread-2} RemoteInterpreterManagedProcess.java[start]:190) - Run interpreter process [/zeppelin/bin/interpreter.sh, -d, /zeppelin/interpreter/spark, -c, 192.168.16.3, -p, 45663, -r, :, -l, /usr/local/local-repo/spark, -g, spark]
+ INFO [2020-02-20 04:10:04,954] ({pool-7-thread-1} RemoteInterpreterManagedProcess.java[callback]:123) - RemoteInterpreterServer Registered: CallbackInfo(host:192.168.16.3, port:34091)
+ INFO [2020-02-20 04:10:05,014] ({pool-2-thread-2} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.spark.SparkInterpreter
+ INFO [2020-02-20 04:10:05,107] ({pool-2-thread-2} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.spark.SparkSqlInterpreter
+ INFO [2020-02-20 04:10:05,112] ({pool-2-thread-2} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.spark.DepInterpreter
+ INFO [2020-02-20 04:10:05,115] ({pool-2-thread-2} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.spark.PySparkInterpreter
+ INFO [2020-02-20 04:10:05,120] ({pool-2-thread-2} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.spark.IPySparkInterpreter
+ INFO [2020-02-20 04:10:05,126] ({pool-2-thread-2} RemoteInterpreter.java[call]:168) - Create RemoteInterpreter org.apache.zeppelin.spark.SparkRInterpreter
+ INFO [2020-02-20 04:10:05,130] ({pool-2-thread-2} RemoteInterpreter.java[call]:142) - Open RemoteInterpreter org.apache.zeppelin.spark.SparkInterpreter
+ INFO [2020-02-20 04:10:05,130] ({pool-2-thread-2} RemoteInterpreter.java[pushAngularObjectRegistryToRemote]:436) - Push local angular object registry from ZeppelinServer to remote interpreter group spark:shared_process
+ INFO [2020-02-20 04:10:30,823] ({pool-2-thread-2} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 04:10:30,872] ({pool-2-thread-2} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:10:30,946] ({pool-2-thread-2} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:10:53,429] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:10:53,521] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:10:53,554] ({pool-2-thread-2} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:10:53,556] ({pool-2-thread-2} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 04:10:55,579] ({pool-2-thread-2} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 04:10:55,596] ({JobProgressPoller, jobId=20200219-065917_1853343063} NotebookServer.java[onClose]:372) - Closed connection to 192.168.16.1 : 50830. (1006) WebSocket Write EOF
+ INFO [2020-02-20 04:10:55,609] ({pool-2-thread-2} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:10:55,638] ({pool-2-thread-2} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:10:56,977] ({qtp395629617-16} NotebookServer.java[onOpen]:151) - New connection from 192.168.16.1 : 51020
+ INFO [2020-02-20 04:10:56,994] ({qtp395629617-15} NotebookServer.java[sendNote]:828) - New operation from 192.168.16.1 : 51020 : anonymous : GET_NOTE : 2EZZ5HVRW
+ WARN [2020-02-20 04:10:57,025] ({qtp395629617-15} GitNotebookRepo.java[revisionHistory]:158) - No Head found for 2EZZ5HVRW, No HEAD exists and no explicit starting revision was specified
+ WARN [2020-02-20 04:10:57,037] ({qtp395629617-16} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-02-20 04:10:57,042] ({qtp395629617-16} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-02-20 04:10:57,044] ({qtp395629617-16} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-02-20 04:10:57,047] ({qtp395629617-16} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-02-20 04:10:57,048] ({qtp395629617-16} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-02-20 04:10:57,049] ({qtp395629617-16} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ INFO [2020-02-20 04:12:37,780] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:12:37,906] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:12:37,942] ({pool-2-thread-3} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:12:37,948] ({pool-2-thread-3} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ WARN [2020-02-20 04:12:42,339] ({pool-2-thread-3} NotebookServer.java[afterStatusChange]:2316) - Job 20200219-065917_1853343063 is finished, status: ERROR, exception: null, result: %text import java.nio.file.{Paths, Files}
+import scala.io.Source
+import spark.implicits._
+res2: Boolean = true
+org.apache.spark.sql.AnalysisException: Path does not exist: file:/zeppelin/example.json;
+  at org.apache.spark.sql.execution.datasources.DataSource$$anonfun$org$apache$spark$sql$execution$datasources$DataSource$$checkAndGlobPathIfNecessary$1.apply(DataSource.scala:558)
+  at org.apache.spark.sql.execution.datasources.DataSource$$anonfun$org$apache$spark$sql$execution$datasources$DataSource$$checkAndGlobPathIfNecessary$1.apply(DataSource.scala:545)
+  at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:241)
+  at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(TraversableLike.scala:241)
+  at scala.collection.immutable.List.foreach(List.scala:392)
+  at scala.collection.TraversableLike$class.flatMap(TraversableLike.scala:241)
+  at scala.collection.immutable.List.flatMap(List.scala:355)
+  at org.apache.spark.sql.execution.datasources.DataSource.org$apache$spark$sql$execution$datasources$DataSource$$checkAndGlobPathIfNecessary(DataSource.scala:545)
+  at org.apache.spark.sql.execution.datasources.DataSource.resolveRelation(DataSource.scala:359)
+  at org.apache.spark.sql.DataFrameReader.loadV1Source(DataFrameReader.scala:223)
+  at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:211)
+  at org.apache.spark.sql.DataFrameReader.json(DataFrameReader.scala:391)
+  at org.apache.spark.sql.DataFrameReader.json(DataFrameReader.scala:325)
+  ... 53 elided
+
+ INFO [2020-02-20 04:12:42,386] ({pool-2-thread-3} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:12:42,454] ({pool-2-thread-3} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:12:55,813] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:12:55,924] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:12:55,967] ({pool-2-thread-2} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:12:55,968] ({pool-2-thread-2} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 04:13:04,428] ({pool-2-thread-2} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 04:13:04,457] ({pool-2-thread-2} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:13:04,489] ({pool-2-thread-2} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:13:57,404] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:13:57,534] ({qtp395629617-72} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:13:57,572] ({pool-2-thread-4} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:13:57,574] ({pool-2-thread-4} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 04:14:03,251] ({pool-2-thread-4} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 04:14:03,282] ({pool-2-thread-4} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:14:03,326] ({pool-2-thread-4} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:35:20,852] ({qtp395629617-72} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:36:00,135] ({qtp395629617-16} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:39:10,984] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:39:33,839] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:39:56,809] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:40:49,236] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:40:54,025] ({qtp395629617-72} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:40:57,215] ({qtp395629617-72} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:41:18,033] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:41:18,144] ({qtp395629617-72} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:41:18,172] ({pool-2-thread-3} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:41:18,174] ({pool-2-thread-3} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ WARN [2020-02-20 04:41:22,652] ({pool-2-thread-3} NotebookServer.java[afterStatusChange]:2316) - Job 20200219-065917_1853343063 is finished, status: ERROR, exception: null, result: %text import java.nio.file.{Paths, Files}
+import scala.io.Source
+import spark.implicits._
+res6: Boolean = true
+df: org.apache.spark.sql.DataFrame = [extensions: array<string>, license: string ... 7 more fields]
+org.apache.spark.sql.AnalysisException: No such struct field element in awards, buyer, contracts, date, id, initiationType, language, lastUpdate, ocid, parties, planning, tag, tender;
+  at org.apache.spark.sql.catalyst.expressions.ExtractValue$.findField(complexTypeExtractors.scala:85)
+  at org.apache.spark.sql.catalyst.expressions.ExtractValue$.apply(complexTypeExtractors.scala:58)
+  at org.apache.spark.sql.catalyst.expressions.package$AttributeSeq$$anonfun$7.apply(package.scala:244)
+  at org.apache.spark.sql.catalyst.expressions.package$AttributeSeq$$anonfun$7.apply(package.scala:243)
+  at scala.collection.IndexedSeqOptimized$class.foldl(IndexedSeqOptimized.scala:57)
+  at scala.collection.IndexedSeqOptimized$class.foldLeft(IndexedSeqOptimized.scala:66)
+  at scala.collection.mutable.ArrayBuffer.foldLeft(ArrayBuffer.scala:48)
+  at org.apache.spark.sql.catalyst.expressions.package$AttributeSeq.resolve(package.scala:243)
+  at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveChildren(LogicalPlan.scala:101)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$$anonfun$39.apply(Analyzer.scala:889)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$$anonfun$39.apply(Analyzer.scala:891)
+  at org.apache.spark.sql.catalyst.analysis.package$.withPosition(package.scala:53)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$.org$apache$spark$sql$catalyst$analysis$Analyzer$ResolveReferences$$resolve(Analyzer.scala:888)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$$anonfun$org$apache$spark$sql$catalyst$analysis$Analyzer$ResolveReferences$$resolve$2.apply(Analyzer.scala:897)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$$anonfun$org$apache$spark$sql$catalyst$analysis$Analyzer$ResolveReferences$$resolve$2.apply(Analyzer.scala:897)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$4.apply(TreeNode.scala:326)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:187)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:324)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$.org$apache$spark$sql$catalyst$analysis$Analyzer$ResolveReferences$$resolve(Analyzer.scala:897)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$$anonfun$apply$9$$anonfun$applyOrElse$35.apply(Analyzer.scala:957)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$$anonfun$apply$9$$anonfun$applyOrElse$35.apply(Analyzer.scala:957)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$1.apply(QueryPlan.scala:105)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$1.apply(QueryPlan.scala:105)
+  at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpression$1(QueryPlan.scala:104)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1(QueryPlan.scala:116)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1$2.apply(QueryPlan.scala:121)
+  at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+  at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+  at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+  at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+  at scala.collection.TraversableLike$class.map(TraversableLike.scala:234)
+  at scala.collection.AbstractTraversable.map(Traversable.scala:104)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1(QueryPlan.scala:121)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$2.apply(QueryPlan.scala:126)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:187)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.mapExpressions(QueryPlan.scala:126)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$$anonfun$apply$9.applyOrElse(Analyzer.scala:957)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$$anonfun$apply$9.applyOrElse(Analyzer.scala:900)
+  at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1$$anonfun$apply$1.apply(AnalysisHelper.scala:90)
+  at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1$$anonfun$apply$1.apply(AnalysisHelper.scala:90)
+  at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+  at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1.apply(AnalysisHelper.scala:89)
+  at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1.apply(AnalysisHelper.scala:86)
+  at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:194)
+  at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$class.resolveOperatorsUp(AnalysisHelper.scala:86)
+  at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUp(LogicalPlan.scala:29)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$.apply(Analyzer.scala:900)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$ResolveReferences$.apply(Analyzer.scala:758)
+  at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1$$anonfun$apply$1.apply(RuleExecutor.scala:87)
+  at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1$$anonfun$apply$1.apply(RuleExecutor.scala:84)
+  at scala.collection.LinearSeqOptimized$class.foldLeft(LinearSeqOptimized.scala:124)
+  at scala.collection.immutable.List.foldLeft(List.scala:84)
+  at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1.apply(RuleExecutor.scala:84)
+  at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1.apply(RuleExecutor.scala:76)
+  at scala.collection.immutable.List.foreach(List.scala:392)
+  at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:76)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer.org$apache$spark$sql$catalyst$analysis$Analyzer$$executeSameContext(Analyzer.scala:127)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:121)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:106)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:105)
+  at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:201)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:105)
+  at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:57)
+  at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:55)
+  at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:47)
+  at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:79)
+  at org.apache.spark.sql.Dataset.org$apache$spark$sql$Dataset$$withPlan(Dataset.scala:3407)
+  at org.apache.spark.sql.Dataset.select(Dataset.scala:1335)
+  at org.apache.spark.sql.Dataset.select(Dataset.scala:1353)
+  ... 60 elided
+
+ INFO [2020-02-20 04:41:22,692] ({pool-2-thread-3} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:41:22,760] ({pool-2-thread-3} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:42:00,699] ({qtp395629617-72} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:42:00,791] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:42:00,828] ({pool-2-thread-5} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:42:00,831] ({pool-2-thread-5} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ WARN [2020-02-20 04:42:04,608] ({pool-2-thread-5} NotebookServer.java[afterStatusChange]:2316) - Job 20200219-065917_1853343063 is finished, status: ERROR, exception: null, result: %text import java.nio.file.{Paths, Files}
+import scala.io.Source
+import spark.implicits._
+res7: Boolean = true
+df: org.apache.spark.sql.DataFrame = [extensions: array<string>, license: string ... 7 more fields]
+org.apache.spark.sql.AnalysisException: cannot resolve '`releases`.`awards`['description']' due to data type mismatch: argument 2 requires integral type, however, ''description'' is of string type.;;
+'Project [releases#84.awards[description] AS description#96]
++- Relation[extensions#78,license#79,links#80,publicationPolicy#81,publishedDate#82,publisher#83,releases#84,uri#85,version#86] json
+
+  at org.apache.spark.sql.catalyst.analysis.package$AnalysisErrorAt.failAnalysis(package.scala:42)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1$$anonfun$apply$3.applyOrElse(CheckAnalysis.scala:115)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1$$anonfun$apply$3.applyOrElse(CheckAnalysis.scala:107)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$transformUp$1.apply(TreeNode.scala:278)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$transformUp$1.apply(TreeNode.scala:278)
+  at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.transformUp(TreeNode.scala:277)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$3.apply(TreeNode.scala:275)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$3.apply(TreeNode.scala:275)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$4.apply(TreeNode.scala:326)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:187)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:324)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.transformUp(TreeNode.scala:275)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$transformExpressionsUp$1.apply(QueryPlan.scala:93)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$transformExpressionsUp$1.apply(QueryPlan.scala:93)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$1.apply(QueryPlan.scala:105)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$1.apply(QueryPlan.scala:105)
+  at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpression$1(QueryPlan.scala:104)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1(QueryPlan.scala:116)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1$2.apply(QueryPlan.scala:121)
+  at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+  at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+  at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+  at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+  at scala.collection.TraversableLike$class.map(TraversableLike.scala:234)
+  at scala.collection.AbstractTraversable.map(Traversable.scala:104)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1(QueryPlan.scala:121)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$2.apply(QueryPlan.scala:126)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:187)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.mapExpressions(QueryPlan.scala:126)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpressionsUp(QueryPlan.scala:93)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1.apply(CheckAnalysis.scala:107)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1.apply(CheckAnalysis.scala:85)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:127)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$class.checkAnalysis(CheckAnalysis.scala:85)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:95)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:108)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:105)
+  at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:201)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:105)
+  at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:57)
+  at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:55)
+  at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:47)
+  at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:79)
+  at org.apache.spark.sql.Dataset.org$apache$spark$sql$Dataset$$withPlan(Dataset.scala:3407)
+  at org.apache.spark.sql.Dataset.select(Dataset.scala:1335)
+  at org.apache.spark.sql.Dataset.select(Dataset.scala:1353)
+  ... 62 elided
+
+ INFO [2020-02-20 04:42:04,640] ({pool-2-thread-5} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:42:04,671] ({pool-2-thread-5} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:51:06,156] ({qtp395629617-72} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:51:06,298] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:51:06,338] ({pool-2-thread-2} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:51:06,339] ({pool-2-thread-2} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ WARN [2020-02-20 04:51:11,112] ({pool-2-thread-2} NotebookServer.java[afterStatusChange]:2316) - Job 20200219-065917_1853343063 is finished, status: ERROR, exception: null, result: %text import java.nio.file.{Paths, Files}
+import scala.io.Source
+import spark.implicits._
+res8: Boolean = true
+df: org.apache.spark.sql.DataFrame = [extensions: array<string>, license: string ... 7 more fields]
+org.apache.spark.sql.AnalysisException: cannot resolve '`releases`.`awards`['description']' due to data type mismatch: argument 2 requires integral type, however, ''description'' is of string type.;;
+'Project [unresolvedalias(releases#109.awards[description][0], None)]
++- Relation[extensions#103,license#104,links#105,publicationPolicy#106,publishedDate#107,publisher#108,releases#109,uri#110,version#111] json
+
+  at org.apache.spark.sql.catalyst.analysis.package$AnalysisErrorAt.failAnalysis(package.scala:42)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1$$anonfun$apply$3.applyOrElse(CheckAnalysis.scala:115)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1$$anonfun$apply$3.applyOrElse(CheckAnalysis.scala:107)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$transformUp$1.apply(TreeNode.scala:278)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$transformUp$1.apply(TreeNode.scala:278)
+  at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.transformUp(TreeNode.scala:277)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$3.apply(TreeNode.scala:275)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$3.apply(TreeNode.scala:275)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$4.apply(TreeNode.scala:326)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:187)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:324)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.transformUp(TreeNode.scala:275)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$3.apply(TreeNode.scala:275)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$3.apply(TreeNode.scala:275)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$4.apply(TreeNode.scala:326)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:187)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:324)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.transformUp(TreeNode.scala:275)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$transformExpressionsUp$1.apply(QueryPlan.scala:93)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$transformExpressionsUp$1.apply(QueryPlan.scala:93)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$1.apply(QueryPlan.scala:105)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$1.apply(QueryPlan.scala:105)
+  at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpression$1(QueryPlan.scala:104)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1(QueryPlan.scala:116)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1$2.apply(QueryPlan.scala:121)
+  at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+  at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+  at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+  at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+  at scala.collection.TraversableLike$class.map(TraversableLike.scala:234)
+  at scala.collection.AbstractTraversable.map(Traversable.scala:104)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1(QueryPlan.scala:121)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$2.apply(QueryPlan.scala:126)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:187)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.mapExpressions(QueryPlan.scala:126)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpressionsUp(QueryPlan.scala:93)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1.apply(CheckAnalysis.scala:107)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1.apply(CheckAnalysis.scala:85)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:127)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$class.checkAnalysis(CheckAnalysis.scala:85)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:95)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:108)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:105)
+  at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:201)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:105)
+  at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:57)
+  at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:55)
+  at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:47)
+  at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:79)
+  at org.apache.spark.sql.Dataset.org$apache$spark$sql$Dataset$$withPlan(Dataset.scala:3407)
+  at org.apache.spark.sql.Dataset.select(Dataset.scala:1335)
+  ... 63 elided
+
+ INFO [2020-02-20 04:51:11,131] ({pool-2-thread-2} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:51:11,187] ({pool-2-thread-2} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:53:10,363] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:53:10,453] ({qtp395629617-16} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:53:10,481] ({pool-2-thread-6} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:53:10,486] ({pool-2-thread-6} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 04:53:14,521] ({pool-2-thread-6} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 04:53:14,554] ({pool-2-thread-6} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:53:14,599] ({pool-2-thread-6} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:53:32,281] ({qtp395629617-16} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:53:55,665] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:54:12,231] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:54:12,362] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:54:12,396] ({pool-2-thread-4} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:54:12,401] ({pool-2-thread-4} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ WARN [2020-02-20 04:54:15,236] ({pool-2-thread-4} NotebookServer.java[afterStatusChange]:2316) - Job 20200219-065917_1853343063 is finished, status: ERROR, exception: null, result: %text import java.nio.file.{Paths, Files}
+import scala.io.Source
+import spark.implicits._
+res10: Boolean = true
+df: org.apache.spark.sql.DataFrame = [extensions: array<string>, license: string ... 7 more fields]
+<console>:75: error: not found: value contractPeriod
+       val result = df.select(col("releases.awards")(0)).select(col(contractPeriod)(0))
+                                                                    ^
+
+ INFO [2020-02-20 04:54:15,254] ({pool-2-thread-4} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:54:15,288] ({pool-2-thread-4} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:54:56,025] ({qtp395629617-16} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:54:56,135] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:54:56,183] ({pool-2-thread-7} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:54:56,185] ({pool-2-thread-7} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ WARN [2020-02-20 04:54:59,182] ({pool-2-thread-7} NotebookServer.java[afterStatusChange]:2316) - Job 20200219-065917_1853343063 is finished, status: ERROR, exception: null, result: %text import java.nio.file.{Paths, Files}
+import scala.io.Source
+import spark.implicits._
+res11: Boolean = true
+df: org.apache.spark.sql.DataFrame = [extensions: array<string>, license: string ... 7 more fields]
+<console>:80: error: not found: value contractPeriod
+       val result = df.select(col("releases.awards")(0)).select(col(contractPeriod))
+                                                                    ^
+
+ INFO [2020-02-20 04:54:59,233] ({pool-2-thread-7} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:54:59,290] ({pool-2-thread-7} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:55:07,010] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:55:07,087] ({qtp395629617-16} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:55:07,118] ({pool-2-thread-3} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:55:07,120] ({pool-2-thread-3} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 04:55:10,469] ({pool-2-thread-3} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 04:55:10,482] ({pool-2-thread-3} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:55:10,523] ({pool-2-thread-3} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:55:35,603] ({qtp395629617-16} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:56:44,678] ({qtp395629617-16} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:56:44,772] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:56:44,819] ({pool-2-thread-8} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:56:44,829] ({pool-2-thread-8} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 04:56:49,885] ({pool-2-thread-8} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 04:56:49,900] ({pool-2-thread-8} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:56:49,938] ({pool-2-thread-8} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:57:07,652] ({qtp395629617-16} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:57:07,756] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:57:07,807] ({pool-2-thread-5} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:57:07,901] ({pool-2-thread-5} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 04:57:12,320] ({pool-2-thread-5} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 04:57:12,330] ({pool-2-thread-5} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:57:12,364] ({pool-2-thread-5} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:57:48,504] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:57:48,627] ({qtp395629617-16} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:57:48,659] ({pool-2-thread-9} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:57:48,660] ({pool-2-thread-9} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 04:57:52,055] ({pool-2-thread-9} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 04:57:52,066] ({pool-2-thread-9} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:57:52,111] ({pool-2-thread-9} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:58:02,222] ({qtp395629617-16} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:58:02,327] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:58:02,370] ({pool-2-thread-2} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:58:02,375] ({pool-2-thread-2} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 04:58:06,172] ({pool-2-thread-2} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 04:58:06,181] ({pool-2-thread-2} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:58:06,224] ({pool-2-thread-2} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:58:28,075] ({qtp395629617-11} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:58:28,205] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:58:28,239] ({pool-2-thread-10} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 04:58:28,241] ({pool-2-thread-10} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 04:58:31,594] ({pool-2-thread-10} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 04:58:31,606] ({pool-2-thread-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 04:58:31,656] ({pool-2-thread-10} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 05:02:42,179] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:02:42,311] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:02:42,354] ({pool-2-thread-6} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 05:02:42,355] ({pool-2-thread-6} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 05:02:46,307] ({pool-2-thread-6} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 05:02:46,320] ({pool-2-thread-6} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:02:46,362] ({pool-2-thread-6} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 05:03:19,092] ({qtp395629617-16} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:03:33,424] ({qtp395629617-16} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:03:33,512] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:03:33,554] ({pool-2-thread-11} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 05:03:33,555] ({pool-2-thread-11} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ WARN [2020-02-20 05:03:37,044] ({pool-2-thread-11} NotebookServer.java[afterStatusChange]:2316) - Job 20200219-065917_1853343063 is finished, status: ERROR, exception: null, result: %text import java.nio.file.{Paths, Files}
+import scala.io.Source
+import spark.implicits._
+res25: Boolean = true
+df: org.apache.spark.sql.DataFrame = [extensions: array<string>, license: string ... 7 more fields]
+org.apache.spark.sql.AnalysisException: cannot resolve '`description`' given input columns: [awards];;
+'Project ['description]
++- Project [releases#427.awards AS awards#439]
+   +- Relation[extensions#421,license#422,links#423,publicationPolicy#424,publishedDate#425,publisher#426,releases#427,uri#428,version#429] json
+
+  at org.apache.spark.sql.catalyst.analysis.package$AnalysisErrorAt.failAnalysis(package.scala:42)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1$$anonfun$apply$3.applyOrElse(CheckAnalysis.scala:110)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1$$anonfun$apply$3.applyOrElse(CheckAnalysis.scala:107)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$transformUp$1.apply(TreeNode.scala:278)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$transformUp$1.apply(TreeNode.scala:278)
+  at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.transformUp(TreeNode.scala:277)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$transformExpressionsUp$1.apply(QueryPlan.scala:93)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$transformExpressionsUp$1.apply(QueryPlan.scala:93)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$1.apply(QueryPlan.scala:105)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$1.apply(QueryPlan.scala:105)
+  at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpression$1(QueryPlan.scala:104)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1(QueryPlan.scala:116)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1$2.apply(QueryPlan.scala:121)
+  at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+  at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+  at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+  at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+  at scala.collection.TraversableLike$class.map(TraversableLike.scala:234)
+  at scala.collection.AbstractTraversable.map(Traversable.scala:104)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1(QueryPlan.scala:121)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$2.apply(QueryPlan.scala:126)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:187)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.mapExpressions(QueryPlan.scala:126)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpressionsUp(QueryPlan.scala:93)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1.apply(CheckAnalysis.scala:107)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1.apply(CheckAnalysis.scala:85)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:127)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$class.checkAnalysis(CheckAnalysis.scala:85)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:95)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:108)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:105)
+  at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:201)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:105)
+  at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:57)
+  at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:55)
+  at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:47)
+  at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:79)
+  at org.apache.spark.sql.Dataset.org$apache$spark$sql$Dataset$$withPlan(Dataset.scala:3407)
+  at org.apache.spark.sql.Dataset.select(Dataset.scala:1335)
+  ... 85 elided
+
+ INFO [2020-02-20 05:03:37,052] ({pool-2-thread-11} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:03:37,088] ({pool-2-thread-11} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 05:14:42,113] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:14:53,490] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:15:01,755] ({qtp395629617-11} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:15:01,869] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:15:01,905] ({pool-2-thread-4} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 05:15:01,906] ({pool-2-thread-4} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ WARN [2020-02-20 05:15:06,497] ({pool-2-thread-4} NotebookServer.java[afterStatusChange]:2316) - Job 20200219-065917_1853343063 is finished, status: ERROR, exception: null, result: %text import java.nio.file.{Paths, Files}
+import scala.io.Source
+import spark.implicits._
+res27: Boolean = true
+df: org.apache.spark.sql.DataFrame = [extensions: array<string>, license: string ... 7 more fields]
+org.apache.spark.sql.AnalysisException: cannot resolve '`description`' given input columns: [publisher, version, license, links, publicationPolicy, extensions, publishedDate, uri, releases];;
+'Project [explode('description) AS List()]
++- Relation[extensions#447,license#448,links#449,publicationPolicy#450,publishedDate#451,publisher#452,releases#453,uri#454,version#455] json
+
+  at org.apache.spark.sql.catalyst.analysis.package$AnalysisErrorAt.failAnalysis(package.scala:42)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1$$anonfun$apply$3.applyOrElse(CheckAnalysis.scala:110)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1$$anonfun$apply$3.applyOrElse(CheckAnalysis.scala:107)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$transformUp$1.apply(TreeNode.scala:278)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$transformUp$1.apply(TreeNode.scala:278)
+  at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.transformUp(TreeNode.scala:277)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$3.apply(TreeNode.scala:275)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$3.apply(TreeNode.scala:275)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$4.apply(TreeNode.scala:326)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:187)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:324)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.transformUp(TreeNode.scala:275)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$3.apply(TreeNode.scala:275)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$3.apply(TreeNode.scala:275)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$4.apply(TreeNode.scala:326)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:187)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:324)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.transformUp(TreeNode.scala:275)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$transformExpressionsUp$1.apply(QueryPlan.scala:93)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$transformExpressionsUp$1.apply(QueryPlan.scala:93)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$1.apply(QueryPlan.scala:105)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$1.apply(QueryPlan.scala:105)
+  at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpression$1(QueryPlan.scala:104)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1(QueryPlan.scala:116)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1$2.apply(QueryPlan.scala:121)
+  at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+  at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+  at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+  at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+  at scala.collection.TraversableLike$class.map(TraversableLike.scala:234)
+  at scala.collection.AbstractTraversable.map(Traversable.scala:104)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1(QueryPlan.scala:121)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$2.apply(QueryPlan.scala:126)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:187)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.mapExpressions(QueryPlan.scala:126)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpressionsUp(QueryPlan.scala:93)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1.apply(CheckAnalysis.scala:107)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1.apply(CheckAnalysis.scala:85)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:127)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$class.checkAnalysis(CheckAnalysis.scala:85)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:95)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:108)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:105)
+  at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:201)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:105)
+  at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:57)
+  at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:55)
+  at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:47)
+  at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:79)
+  at org.apache.spark.sql.Dataset.org$apache$spark$sql$Dataset$$withPlan(Dataset.scala:3407)
+  at org.apache.spark.sql.Dataset.select(Dataset.scala:1335)
+  ... 87 elided
+
+ INFO [2020-02-20 05:15:06,506] ({pool-2-thread-4} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:15:06,548] ({pool-2-thread-4} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 05:16:06,210] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:16:06,310] ({qtp395629617-72} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:16:06,340] ({pool-2-thread-12} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 05:16:06,341] ({pool-2-thread-12} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 05:16:09,910] ({pool-2-thread-12} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 05:16:09,934] ({pool-2-thread-12} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:16:09,983] ({pool-2-thread-12} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 05:16:48,229] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:16:57,529] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:16:57,623] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:16:57,656] ({pool-2-thread-7} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 05:16:57,657] ({pool-2-thread-7} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 05:17:00,849] ({pool-2-thread-7} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 05:17:00,855] ({pool-2-thread-7} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:17:00,884] ({pool-2-thread-7} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 05:17:22,584] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:17:22,704] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:17:22,742] ({pool-2-thread-13} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 05:17:22,744] ({pool-2-thread-13} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ WARN [2020-02-20 05:17:26,287] ({pool-2-thread-13} NotebookServer.java[afterStatusChange]:2316) - Job 20200219-065917_1853343063 is finished, status: ERROR, exception: null, result: %text import java.nio.file.{Paths, Files}
+import scala.io.Source
+import spark.implicits._
+res33: Boolean = true
+df: org.apache.spark.sql.DataFrame = [extensions: array<string>, license: string ... 7 more fields]
+org.apache.spark.sql.AnalysisException: cannot resolve '`releases`.`awards`['contractPeriod']' due to data type mismatch: argument 2 requires integral type, however, ''contractPeriod'' is of string type.;;
+'Project [releases#528.awards[contractPeriod] AS contractPeriod#540]
++- Relation[extensions#522,license#523,links#524,publicationPolicy#525,publishedDate#526,publisher#527,releases#528,uri#529,version#530] json
+
+  at org.apache.spark.sql.catalyst.analysis.package$AnalysisErrorAt.failAnalysis(package.scala:42)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1$$anonfun$apply$3.applyOrElse(CheckAnalysis.scala:115)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1$$anonfun$apply$3.applyOrElse(CheckAnalysis.scala:107)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$transformUp$1.apply(TreeNode.scala:278)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$transformUp$1.apply(TreeNode.scala:278)
+  at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.transformUp(TreeNode.scala:277)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$3.apply(TreeNode.scala:275)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$3.apply(TreeNode.scala:275)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$4.apply(TreeNode.scala:326)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:187)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:324)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.transformUp(TreeNode.scala:275)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$transformExpressionsUp$1.apply(QueryPlan.scala:93)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$transformExpressionsUp$1.apply(QueryPlan.scala:93)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$1.apply(QueryPlan.scala:105)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$1.apply(QueryPlan.scala:105)
+  at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpression$1(QueryPlan.scala:104)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1(QueryPlan.scala:116)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1$2.apply(QueryPlan.scala:121)
+  at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+  at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+  at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+  at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+  at scala.collection.TraversableLike$class.map(TraversableLike.scala:234)
+  at scala.collection.AbstractTraversable.map(Traversable.scala:104)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1(QueryPlan.scala:121)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$2.apply(QueryPlan.scala:126)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:187)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.mapExpressions(QueryPlan.scala:126)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpressionsUp(QueryPlan.scala:93)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1.apply(CheckAnalysis.scala:107)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1.apply(CheckAnalysis.scala:85)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:127)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$class.checkAnalysis(CheckAnalysis.scala:85)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:95)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:108)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:105)
+  at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:201)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:105)
+  at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:57)
+  at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:55)
+  at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:47)
+  at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:79)
+  at org.apache.spark.sql.Dataset.org$apache$spark$sql$Dataset$$withPlan(Dataset.scala:3407)
+  at org.apache.spark.sql.Dataset.select(Dataset.scala:1335)
+  at org.apache.spark.sql.Dataset.select(Dataset.scala:1353)
+  ... 93 elided
+
+ INFO [2020-02-20 05:17:26,297] ({pool-2-thread-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:17:26,325] ({pool-2-thread-13} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 05:17:44,878] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:18:12,126] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:18:13,448] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:18:13,474] ({pool-2-thread-3} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 05:18:13,477] ({pool-2-thread-3} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 05:18:16,786] ({pool-2-thread-3} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 05:18:16,794] ({pool-2-thread-3} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 05:18:16,841] ({pool-2-thread-3} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:11:53,846] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:11:53,968] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:11:53,995] ({pool-2-thread-14} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:11:53,997] ({pool-2-thread-14} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ WARN [2020-02-20 07:11:57,793] ({pool-2-thread-14} NotebookServer.java[afterStatusChange]:2316) - Job 20200219-065917_1853343063 is finished, status: ERROR, exception: null, result: %text import java.nio.file.{Paths, Files}
+import scala.io.Source
+import spark.implicits._
+res37: Boolean = true
+df: org.apache.spark.sql.DataFrame = [extensions: array<string>, license: string ... 7 more fields]
+<console>:151: error: Unable to find encoder for type Any. An implicit Encoder[Any] is needed to store Any instances in a Dataset. Primitive types (Int, String, etc) and Product types (case classes) are supported by importing spark.implicits._  Support for serializing other types will be added in future releases.
+       df.select(col("releases.awards")).map(x=>x.get(0))
+                                            ^
+
+ INFO [2020-02-20 07:11:57,802] ({pool-2-thread-14} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:11:57,840] ({pool-2-thread-14} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:14:39,416] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:23:56,684] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:23:56,786] ({qtp395629617-11} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:23:56,818] ({pool-2-thread-8} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:23:56,819] ({pool-2-thread-8} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 07:24:01,370] ({pool-2-thread-8} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 07:24:01,376] ({pool-2-thread-8} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:24:01,403] ({pool-2-thread-8} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:24:41,424] ({qtp395629617-11} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:25:01,341] ({qtp395629617-11} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:25:01,438] ({qtp395629617-72} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:25:01,477] ({pool-2-thread-15} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:25:01,479] ({pool-2-thread-15} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 07:25:05,887] ({pool-2-thread-15} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 07:25:05,905] ({pool-2-thread-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:25:05,939] ({pool-2-thread-15} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:26:26,678] ({qtp395629617-72} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:26:26,780] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:26:26,824] ({pool-2-thread-5} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:26:26,825] ({pool-2-thread-5} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ WARN [2020-02-20 07:26:31,973] ({pool-2-thread-5} NotebookServer.java[afterStatusChange]:2316) - Job 20200219-065917_1853343063 is finished, status: ERROR, exception: null, result: %text import java.nio.file.{Paths, Files}
+import scala.io.Source
+import spark.implicits._
+import org.apache.spark.sql.functions._
+res43: Boolean = true
+df: org.apache.spark.sql.DataFrame = [extensions: array<string>, license: string ... 7 more fields]
+org.apache.spark.sql.AnalysisException: cannot resolve '`releases`.`awards`['contractPeriod']' due to data type mismatch: argument 2 requires integral type, however, ''contractPeriod'' is of string type.;;
+'Project [releases#656.awards[contractPeriod] AS contractPeriod#668]
++- Relation[extensions#650,license#651,links#652,publicationPolicy#653,publishedDate#654,publisher#655,releases#656,uri#657,version#658] json
+
+  at org.apache.spark.sql.catalyst.analysis.package$AnalysisErrorAt.failAnalysis(package.scala:42)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1$$anonfun$apply$3.applyOrElse(CheckAnalysis.scala:115)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1$$anonfun$apply$3.applyOrElse(CheckAnalysis.scala:107)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$transformUp$1.apply(TreeNode.scala:278)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$transformUp$1.apply(TreeNode.scala:278)
+  at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.transformUp(TreeNode.scala:277)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$3.apply(TreeNode.scala:275)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$3.apply(TreeNode.scala:275)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$4.apply(TreeNode.scala:326)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:187)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapChildren(TreeNode.scala:324)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.transformUp(TreeNode.scala:275)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$transformExpressionsUp$1.apply(QueryPlan.scala:93)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$transformExpressionsUp$1.apply(QueryPlan.scala:93)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$1.apply(QueryPlan.scala:105)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$1.apply(QueryPlan.scala:105)
+  at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpression$1(QueryPlan.scala:104)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1(QueryPlan.scala:116)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1$2.apply(QueryPlan.scala:121)
+  at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+  at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+  at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+  at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+  at scala.collection.TraversableLike$class.map(TraversableLike.scala:234)
+  at scala.collection.AbstractTraversable.map(Traversable.scala:104)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1(QueryPlan.scala:121)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$2.apply(QueryPlan.scala:126)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:187)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.mapExpressions(QueryPlan.scala:126)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpressionsUp(QueryPlan.scala:93)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1.apply(CheckAnalysis.scala:107)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1.apply(CheckAnalysis.scala:85)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:127)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$class.checkAnalysis(CheckAnalysis.scala:85)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:95)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:108)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:105)
+  at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:201)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:105)
+  at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:57)
+  at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:55)
+  at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:47)
+  at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:79)
+  at org.apache.spark.sql.Dataset.org$apache$spark$sql$Dataset$$withPlan(Dataset.scala:3407)
+  at org.apache.spark.sql.Dataset.select(Dataset.scala:1335)
+  ... 109 elided
+
+ INFO [2020-02-20 07:26:31,982] ({pool-2-thread-5} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:26:32,013] ({pool-2-thread-5} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:26:53,076] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:28:30,422] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:28:30,460] ({pool-2-thread-16} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:28:30,474] ({pool-2-thread-16} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 07:28:37,310] ({pool-2-thread-16} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 07:28:37,318] ({pool-2-thread-16} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:28:37,388] ({pool-2-thread-16} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:31:33,828] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:37:23,230] ({qtp395629617-16} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:37:23,358] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:37:23,403] ({pool-2-thread-9} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:37:23,404] ({pool-2-thread-9} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 07:37:28,610] ({pool-2-thread-9} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 07:37:28,615] ({pool-2-thread-9} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:37:28,652] ({pool-2-thread-9} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:38:09,643] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:38:56,421] ({qtp395629617-72} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:38:56,566] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:38:56,606] ({pool-2-thread-17} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:38:56,608] ({pool-2-thread-17} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 07:39:02,046] ({pool-2-thread-17} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 07:39:02,058] ({pool-2-thread-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:39:02,092] ({pool-2-thread-17} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:39:45,752] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:39:58,000] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:39:58,126] ({qtp395629617-11} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:39:58,170] ({pool-2-thread-2} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:39:58,171] ({pool-2-thread-2} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ WARN [2020-02-20 07:40:04,547] ({pool-2-thread-2} NotebookServer.java[afterStatusChange]:2316) - Job 20200219-065917_1853343063 is finished, status: ERROR, exception: null, result: %text import java.nio.file.{Paths, Files}
+import scala.io.Source
+import spark.implicits._
+import org.apache.spark.sql.functions._
+res51: Boolean = true
+df: org.apache.spark.sql.DataFrame = [extensions: array<string>, license: string ... 7 more fields]
+org.apache.spark.sql.AnalysisException: cannot resolve '`releases.awards.description`' given input columns: [awards];;
+'Project ['releases.awards.description]
++- Project [awards#782]
+   +- Generate explode(releases#778.awards), false, [awards#782]
+      +- Project [releases#778]
+         +- Generate explode(releases#765), false, [releases#778]
+            +- Relation[extensions#759,license#760,links#761,publicationPolicy#762,publishedDate#763,publisher#764,releases#765,uri#766,version#767] json
+
+  at org.apache.spark.sql.catalyst.analysis.package$AnalysisErrorAt.failAnalysis(package.scala:42)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1$$anonfun$apply$3.applyOrElse(CheckAnalysis.scala:110)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1$$anonfun$apply$3.applyOrElse(CheckAnalysis.scala:107)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$transformUp$1.apply(TreeNode.scala:278)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$transformUp$1.apply(TreeNode.scala:278)
+  at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.transformUp(TreeNode.scala:277)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$transformExpressionsUp$1.apply(QueryPlan.scala:93)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$transformExpressionsUp$1.apply(QueryPlan.scala:93)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$1.apply(QueryPlan.scala:105)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$1.apply(QueryPlan.scala:105)
+  at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpression$1(QueryPlan.scala:104)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1(QueryPlan.scala:116)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1$2.apply(QueryPlan.scala:121)
+  at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+  at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+  at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+  at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+  at scala.collection.TraversableLike$class.map(TraversableLike.scala:234)
+  at scala.collection.AbstractTraversable.map(Traversable.scala:104)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1(QueryPlan.scala:121)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$2.apply(QueryPlan.scala:126)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:187)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.mapExpressions(QueryPlan.scala:126)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpressionsUp(QueryPlan.scala:93)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1.apply(CheckAnalysis.scala:107)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1.apply(CheckAnalysis.scala:85)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:127)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$class.checkAnalysis(CheckAnalysis.scala:85)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:95)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:108)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:105)
+  at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:201)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:105)
+  at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:57)
+  at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:55)
+  at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:47)
+  at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:79)
+  at org.apache.spark.sql.Dataset.org$apache$spark$sql$Dataset$$withPlan(Dataset.scala:3407)
+  at org.apache.spark.sql.Dataset.select(Dataset.scala:1335)
+  at org.apache.spark.sql.Dataset.select(Dataset.scala:1353)
+  ... 125 elided
+
+ INFO [2020-02-20 07:40:04,554] ({pool-2-thread-2} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:40:04,583] ({pool-2-thread-2} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:41:40,985] ({qtp395629617-16} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:41:41,127] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:41:41,166] ({pool-2-thread-18} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:41:41,170] ({pool-2-thread-18} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 07:41:49,429] ({pool-2-thread-18} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 07:41:49,445] ({pool-2-thread-18} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:41:49,507] ({pool-2-thread-18} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:42:12,865] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:43:24,863] ({qtp395629617-16} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:43:46,231] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:44:14,298] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:44:14,415] ({qtp395629617-16} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:44:14,459] ({pool-2-thread-10} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:44:14,461] ({pool-2-thread-10} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ WARN [2020-02-20 07:44:21,401] ({pool-2-thread-10} NotebookServer.java[afterStatusChange]:2316) - Job 20200219-065917_1853343063 is finished, status: ERROR, exception: null, result: %text import java.nio.file.{Paths, Files}
+import scala.io.Source
+import spark.implicits._
+import org.apache.spark.sql.functions._
+res55: Boolean = true
+df: org.apache.spark.sql.DataFrame = [extensions: array<string>, license: string ... 7 more fields]
+org.apache.spark.sql.AnalysisException: Only one generator allowed per select clause but found 2: explode(releases.awards.description AS `description`), explode(releases.awards.value.amount AS `amount`);
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$ExtractGenerator$$anonfun$apply$23.applyOrElse(Analyzer.scala:1712)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$ExtractGenerator$$anonfun$apply$23.applyOrElse(Analyzer.scala:1704)
+  at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1$$anonfun$apply$1.apply(AnalysisHelper.scala:90)
+  at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1$$anonfun$apply$1.apply(AnalysisHelper.scala:90)
+  at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+  at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1.apply(AnalysisHelper.scala:89)
+  at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$$anonfun$resolveOperatorsUp$1.apply(AnalysisHelper.scala:86)
+  at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.allowInvokingTransformsInAnalyzer(AnalysisHelper.scala:194)
+  at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$class.resolveOperatorsUp(AnalysisHelper.scala:86)
+  at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.resolveOperatorsUp(LogicalPlan.scala:29)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$ExtractGenerator$.apply(Analyzer.scala:1704)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$ExtractGenerator$.apply(Analyzer.scala:1667)
+  at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1$$anonfun$apply$1.apply(RuleExecutor.scala:87)
+  at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1$$anonfun$apply$1.apply(RuleExecutor.scala:84)
+  at scala.collection.LinearSeqOptimized$class.foldLeft(LinearSeqOptimized.scala:124)
+  at scala.collection.immutable.List.foldLeft(List.scala:84)
+  at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1.apply(RuleExecutor.scala:84)
+  at org.apache.spark.sql.catalyst.rules.RuleExecutor$$anonfun$execute$1.apply(RuleExecutor.scala:76)
+  at scala.collection.immutable.List.foreach(List.scala:392)
+  at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:76)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer.org$apache$spark$sql$catalyst$analysis$Analyzer$$executeSameContext(Analyzer.scala:127)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer.execute(Analyzer.scala:121)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:106)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:105)
+  at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:201)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:105)
+  at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:57)
+  at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:55)
+  at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:47)
+  at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:79)
+  at org.apache.spark.sql.Dataset.org$apache$spark$sql$Dataset$$withPlan(Dataset.scala:3407)
+  at org.apache.spark.sql.Dataset.select(Dataset.scala:1335)
+  ... 133 elided
+
+ INFO [2020-02-20 07:44:21,411] ({pool-2-thread-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:44:21,445] ({pool-2-thread-10} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:47:58,493] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:47:59,437] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:47:59,471] ({pool-2-thread-19} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:47:59,476] ({pool-2-thread-19} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ WARN [2020-02-20 07:48:05,585] ({pool-2-thread-19} NotebookServer.java[afterStatusChange]:2316) - Job 20200219-065917_1853343063 is finished, status: ERROR, exception: null, result: %text import java.nio.file.{Paths, Files}
+import scala.io.Source
+import spark.implicits._
+import org.apache.spark.sql.functions._
+res57: Boolean = true
+df: org.apache.spark.sql.DataFrame = [extensions: array<string>, license: string ... 7 more fields]
+<console>:1: error: ')' expected but string literal found.
+df.select(explode($"releases").as("releases")).select(explode($"releases.awards).as("description"))
+                                                                                     ^
+<console>:1: error: unclosed string literal
+df.select(explode($"releases").as("releases")).select(explode($"releases.awards).as("description"))
+                                                                                                 ^
+
+ INFO [2020-02-20 07:48:05,593] ({pool-2-thread-19} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:48:05,634] ({pool-2-thread-19} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:48:32,551] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:48:38,941] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:49:20,470] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:49:50,368] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:49:50,507] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:49:50,545] ({pool-2-thread-6} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:49:50,546] ({pool-2-thread-6} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 07:49:57,377] ({pool-2-thread-6} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 07:49:57,384] ({pool-2-thread-6} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:49:57,418] ({pool-2-thread-6} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:50:58,392] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:51:06,175] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:51:06,314] ({qtp395629617-11} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:51:06,351] ({pool-2-thread-20} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:51:06,353] ({pool-2-thread-20} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ WARN [2020-02-20 07:51:15,137] ({pool-2-thread-20} NotebookServer.java[afterStatusChange]:2316) - Job 20200219-065917_1853343063 is finished, status: ERROR, exception: null, result: %text import java.nio.file.{Paths, Files}
+import scala.io.Source
+import spark.implicits._
+import org.apache.spark.sql.functions._
+res60: Boolean = true
+df: org.apache.spark.sql.DataFrame = [extensions: array<string>, license: string ... 7 more fields]
+org.apache.spark.sql.AnalysisException: cannot resolve '`releases.awards.description`' given input columns: [awards];;
+'Project ['releases.awards.description]
++- Project [awards#930]
+   +- Generate explode(releases#926.awards), false, [awards#930]
+      +- Project [releases#926]
+         +- Generate explode(releases#913), false, [releases#926]
+            +- Relation[extensions#907,license#908,links#909,publicationPolicy#910,publishedDate#911,publisher#912,releases#913,uri#914,version#915] json
+
+  at org.apache.spark.sql.catalyst.analysis.package$AnalysisErrorAt.failAnalysis(package.scala:42)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1$$anonfun$apply$3.applyOrElse(CheckAnalysis.scala:110)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1$$anonfun$apply$3.applyOrElse(CheckAnalysis.scala:107)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$transformUp$1.apply(TreeNode.scala:278)
+  at org.apache.spark.sql.catalyst.trees.TreeNode$$anonfun$transformUp$1.apply(TreeNode.scala:278)
+  at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.transformUp(TreeNode.scala:277)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$transformExpressionsUp$1.apply(QueryPlan.scala:93)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$transformExpressionsUp$1.apply(QueryPlan.scala:93)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$1.apply(QueryPlan.scala:105)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$1.apply(QueryPlan.scala:105)
+  at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:70)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpression$1(QueryPlan.scala:104)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1(QueryPlan.scala:116)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1$2.apply(QueryPlan.scala:121)
+  at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+  at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:234)
+  at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+  at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+  at scala.collection.TraversableLike$class.map(TraversableLike.scala:234)
+  at scala.collection.AbstractTraversable.map(Traversable.scala:104)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.org$apache$spark$sql$catalyst$plans$QueryPlan$$recursiveTransform$1(QueryPlan.scala:121)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan$$anonfun$2.apply(QueryPlan.scala:126)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.mapProductIterator(TreeNode.scala:187)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.mapExpressions(QueryPlan.scala:126)
+  at org.apache.spark.sql.catalyst.plans.QueryPlan.transformExpressionsUp(QueryPlan.scala:93)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1.apply(CheckAnalysis.scala:107)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$$anonfun$checkAnalysis$1.apply(CheckAnalysis.scala:85)
+  at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:127)
+  at org.apache.spark.sql.catalyst.analysis.CheckAnalysis$class.checkAnalysis(CheckAnalysis.scala:85)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:95)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:108)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer$$anonfun$executeAndCheck$1.apply(Analyzer.scala:105)
+  at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:201)
+  at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:105)
+  at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:57)
+  at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:55)
+  at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:47)
+  at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:79)
+  at org.apache.spark.sql.Dataset.org$apache$spark$sql$Dataset$$withPlan(Dataset.scala:3407)
+  at org.apache.spark.sql.Dataset.select(Dataset.scala:1335)
+  ... 145 elided
+
+ INFO [2020-02-20 07:51:15,143] ({pool-2-thread-20} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:51:15,173] ({pool-2-thread-20} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:52:09,208] ({qtp395629617-72} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:52:09,336] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:52:09,371] ({pool-2-thread-11} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:52:09,372] ({pool-2-thread-11} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 07:52:17,169] ({pool-2-thread-11} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 07:52:17,175] ({pool-2-thread-11} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:52:17,217] ({pool-2-thread-11} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:53:15,458] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:53:40,928] ({qtp395629617-72} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:53:41,073] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:53:41,117] ({pool-2-thread-21} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:53:41,119] ({pool-2-thread-21} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 07:53:49,932] ({pool-2-thread-21} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 07:53:49,939] ({pool-2-thread-21} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:53:49,972] ({pool-2-thread-21} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:53:58,705] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:53:58,858] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:53:58,900] ({pool-2-thread-4} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 07:53:58,902] ({pool-2-thread-4} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 07:54:09,045] ({pool-2-thread-4} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 07:54:09,055] ({pool-2-thread-4} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 07:54:09,109] ({pool-2-thread-4} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 08:00:22,516] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:00:31,371] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:00:32,131] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:00:32,164] ({pool-2-thread-22} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 08:00:32,168] ({pool-2-thread-22} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ WARN [2020-02-20 08:00:41,551] ({pool-2-thread-22} NotebookServer.java[afterStatusChange]:2316) - Job 20200219-065917_1853343063 is finished, status: ERROR, exception: null, result: %text import java.nio.file.{Paths, Files}
+import scala.io.Source
+import spark.implicits._
+import org.apache.spark.sql.functions._
+res68: Boolean = true
+df: org.apache.spark.sql.DataFrame = [extensions: array<string>, license: string ... 7 more fields]
+<console>:279: error: value oderBy is not a member of org.apache.spark.sql.DataFrame
+       df.select(explode($"releases").as("releases")).select(explode($"releases.awards").as("awards")).select($"awards.description",$"awards.value.amount").oderBy($"amount".desc)
+                                                                                                                                                            ^
+
+ INFO [2020-02-20 08:00:41,563] ({pool-2-thread-22} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:00:41,593] ({pool-2-thread-22} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 08:01:06,521] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:01:06,662] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:01:06,700] ({pool-2-thread-12} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 08:01:06,701] ({pool-2-thread-12} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ WARN [2020-02-20 08:01:19,546] ({pool-2-thread-12} NotebookServer.java[afterStatusChange]:2316) - Job 20200219-065917_1853343063 is finished, status: ERROR, exception: null, result: %text import java.nio.file.{Paths, Files}
+import scala.io.Source
+import spark.implicits._
+import org.apache.spark.sql.functions._
+import sqlContext.implicits._
+res70: Boolean = true
+df: org.apache.spark.sql.DataFrame = [extensions: array<string>, license: string ... 7 more fields]
+<console>:292: error: value oderBy is not a member of org.apache.spark.sql.DataFrame
+       df.select(explode($"releases").as("releases")).select(explode($"releases.awards").as("awards")).select($"awards.description",$"awards.value.amount").oderBy($"amount".desc)
+                                                                                                                                                            ^
+
+ INFO [2020-02-20 08:01:19,558] ({pool-2-thread-12} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:01:19,703] ({pool-2-thread-12} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 08:01:42,254] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:02:27,068] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:02:27,728] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:02:27,760] ({pool-2-thread-23} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 08:02:27,762] ({pool-2-thread-23} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 08:02:41,716] ({pool-2-thread-23} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 08:02:41,723] ({pool-2-thread-23} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:02:41,755] ({pool-2-thread-23} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 08:02:52,010] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:03:12,647] ({qtp395629617-11} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:03:40,037] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:03:52,374] ({qtp395629617-11} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:03:52,477] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:03:52,514] ({pool-2-thread-7} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 08:03:52,516] ({pool-2-thread-7} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 08:04:08,757] ({pool-2-thread-7} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 08:04:08,762] ({pool-2-thread-7} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:04:08,791] ({pool-2-thread-7} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 08:04:37,296] ({qtp395629617-72} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:04:37,452] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:04:37,502] ({pool-2-thread-24} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 08:04:37,505] ({pool-2-thread-24} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 08:04:58,269] ({pool-2-thread-24} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 08:04:58,313] ({pool-2-thread-24} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:04:58,411] ({pool-2-thread-24} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 08:05:24,494] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:05:24,619] ({qtp395629617-72} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:05:24,662] ({pool-2-thread-13} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 08:05:24,663] ({pool-2-thread-13} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 08:06:08,005] ({pool-2-thread-13} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 08:06:08,026] ({pool-2-thread-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:06:08,074] ({pool-2-thread-13} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 08:08:05,153] ({qtp395629617-11} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:09:07,315] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:09:56,784] ({qtp395629617-72} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:10:32,030] ({qtp395629617-72} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:10:40,976] ({qtp395629617-72} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:10:41,109] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:10:41,166] ({pool-2-thread-25} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 08:10:41,171] ({pool-2-thread-25} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ WARN [2020-02-20 08:10:58,038] ({pool-2-thread-25} NotebookServer.java[afterStatusChange]:2316) - Job 20200219-065917_1853343063 is finished, status: ERROR, exception: null, result: %text import java.nio.file.{Paths, Files}
+import scala.io.Source
+import spark.implicits._
+import org.apache.spark.sql.functions._
+import sqlContext.implicits._
+df: org.apache.spark.sql.DataFrame = [extensions: array<string>, license: string ... 7 more fields]
+<console>:1: error: '{' expected but '.' found.
+val select = df.select(explode($"releases").as("releases")).select(explode($"releases.awards").as("awards")).select($"awards.description",$"awards.value.amount").withColumn("dinero",($"amount".cast(DoubleType)/match.pow(10,8)).cast(DecimalType(38,7)))
+                                                                                                                                                                                                                       ^
+
+ INFO [2020-02-20 08:10:58,043] ({pool-2-thread-25} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:10:58,072] ({pool-2-thread-25} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 08:11:41,103] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:11:45,080] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:11:45,108] ({pool-2-thread-3} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 08:11:45,111] ({pool-2-thread-3} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ WARN [2020-02-20 08:12:06,288] ({pool-2-thread-3} NotebookServer.java[afterStatusChange]:2316) - Job 20200219-065917_1853343063 is finished, status: ERROR, exception: null, result: %text import java.nio.file.{Paths, Files}
+import scala.io.Source
+import spark.implicits._
+import org.apache.spark.sql.functions._
+import sqlContext.implicits._
+df: org.apache.spark.sql.DataFrame = [extensions: array<string>, license: string ... 7 more fields]
+<console>:1: error: '{' expected but '.' found.
+val select = df.select(explode($"releases").as("releases")).select(explode($"releases.awards").as("awards")).select($"awards.description",$"awards.value.amount").withColumn("dinero",(col("amount").cast(DoubleType)/match.pow(10,8)).cast(DecimalType(38,7)))
+                                                                                                                                                                                                                           ^
+
+ INFO [2020-02-20 08:12:06,293] ({pool-2-thread-3} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 08:12:06,322] ({pool-2-thread-3} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 08:31:41,282] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:23:40,507] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:24:02,572] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:24:02,820] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:24:02,956] ({pool-2-thread-26} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 09:24:02,959] ({pool-2-thread-26} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ WARN [2020-02-20 09:24:38,388] ({pool-2-thread-26} NotebookServer.java[afterStatusChange]:2316) - Job 20200219-065917_1853343063 is finished, status: ERROR, exception: null, result: %text import java.nio.file.{Paths, Files}
+import scala.io.Source
+import spark.implicits._
+import org.apache.spark.sql.functions._
+import sqlContext.implicits._
+df: org.apache.spark.sql.DataFrame = [extensions: array<string>, license: string ... 7 more fields]
+<console>:2: error: ')' expected but '.' found.
+select.orderBy($"amount".desc).show(false)
+      ^
+
+ INFO [2020-02-20 09:24:38,406] ({pool-2-thread-26} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:24:38,436] ({pool-2-thread-26} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 09:25:05,792] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:25:05,919] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:25:05,956] ({pool-2-thread-14} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 09:25:05,958] ({pool-2-thread-14} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 09:25:32,094] ({pool-2-thread-14} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 09:25:32,110] ({pool-2-thread-14} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:25:32,217] ({pool-2-thread-14} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 09:26:02,326] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:26:02,460] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:26:02,527] ({pool-2-thread-27} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 09:26:02,530] ({pool-2-thread-27} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ WARN [2020-02-20 09:26:31,946] ({pool-2-thread-27} NotebookServer.java[afterStatusChange]:2316) - Job 20200219-065917_1853343063 is finished, status: ERROR, exception: null, result: %text import java.nio.file.{Paths, Files}
+import scala.io.Source
+import spark.implicits._
+import org.apache.spark.sql.functions._
+import sqlContext.implicits._
+df: org.apache.spark.sql.DataFrame = [extensions: array<string>, license: string ... 7 more fields]
+<console>:390: error: not found: value DecimalType
+       val select = df.select(explode($"releases").as("releases")).select(explode($"releases.awards").as("awards")).select($"awards.description",$"awards.value.amount").withColumn("dinero", col("amount").cast(DecimalType(38,2)))
+                                                                                                                                                                                                                 ^
+
+ INFO [2020-02-20 09:26:31,956] ({pool-2-thread-27} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:26:31,987] ({pool-2-thread-27} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 09:27:17,446] ({qtp395629617-16} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:27:17,589] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:27:17,625] ({pool-2-thread-8} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 09:27:17,627] ({pool-2-thread-8} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 09:27:52,961] ({pool-2-thread-8} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 09:27:52,969] ({pool-2-thread-8} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:27:53,008] ({pool-2-thread-8} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 09:28:13,797] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:28:13,922] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:28:13,956] ({pool-2-thread-28} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 09:28:13,957] ({pool-2-thread-28} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 09:28:58,171] ({pool-2-thread-28} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 09:28:58,184] ({pool-2-thread-28} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:28:58,242] ({pool-2-thread-28} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 09:29:11,279] ({qtp395629617-16} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:29:11,445] ({qtp395629617-11} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:29:11,490] ({pool-2-thread-15} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 09:29:11,491] ({pool-2-thread-15} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 09:30:09,374] ({pool-2-thread-15} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 09:30:09,393] ({pool-2-thread-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:30:09,437] ({pool-2-thread-15} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 09:40:24,431] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:43:33,327] ({qtp395629617-72} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:43:43,580] ({qtp395629617-72} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:44:04,850] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:44:17,591] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:44:38,230] ({qtp395629617-16} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:45:00,571] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:45:26,105] ({qtp395629617-16} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:45:33,079] ({qtp395629617-16} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:45:47,033] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:46:08,967] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:46:47,387] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:46:59,698] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:48:03,690] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:49:08,806] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:49:16,325] ({qtp395629617-72} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:49:16,497] ({qtp395629617-17} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:49:16,542] ({pool-2-thread-29} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 09:49:16,543] ({pool-2-thread-29} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 09:50:21,954] ({pool-2-thread-29} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 09:50:21,971] ({pool-2-thread-29} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:50:22,019] ({pool-2-thread-29} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 09:51:26,116] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:51:38,977] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:51:45,062] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:53:07,263] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:53:23,270] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:53:30,721] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:53:30,882] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:53:30,924] ({pool-2-thread-5} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 09:53:30,925] ({pool-2-thread-5} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 09:55:04,390] ({pool-2-thread-5} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 09:55:04,408] ({pool-2-thread-5} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:55:04,561] ({pool-2-thread-5} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 09:55:40,237] ({qtp395629617-72} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:55:40,376] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:55:40,426] ({pool-2-thread-30} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 09:55:40,429] ({pool-2-thread-30} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 09:57:15,914] ({pool-2-thread-30} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 09:57:15,943] ({pool-2-thread-30} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 09:57:15,980] ({JobProgressPoller, jobId=20200219-065917_1853343063} NotebookServer.java[onClose]:372) - Closed connection to 192.168.16.1 : 51020. (1006) WebSocket Write EOF
+ INFO [2020-02-20 09:57:16,096] ({pool-2-thread-30} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 09:57:17,545] ({qtp395629617-17} NotebookServer.java[onOpen]:151) - New connection from 192.168.16.1 : 37120
+ INFO [2020-02-20 09:57:17,548] ({qtp395629617-16} NotebookServer.java[sendNote]:828) - New operation from 192.168.16.1 : 37120 : anonymous : GET_NOTE : 2EZZ5HVRW
+ WARN [2020-02-20 09:57:17,760] ({qtp395629617-16} GitNotebookRepo.java[revisionHistory]:158) - No Head found for 2EZZ5HVRW, No HEAD exists and no explicit starting revision was specified
+ WARN [2020-02-20 09:57:17,810] ({qtp395629617-16} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-02-20 09:57:17,814] ({qtp395629617-16} InterpreterSettingManager.java[compare]:886) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-02-20 09:57:17,816] ({qtp395629617-16} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-02-20 09:57:17,817] ({qtp395629617-16} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-02-20 09:57:17,818] ({qtp395629617-16} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ WARN [2020-02-20 09:57:17,819] ({qtp395629617-16} InterpreterSettingManager.java[compare]:892) - InterpreterGroup sap is not specified in zeppelin.interpreter.group.order
+ INFO [2020-02-20 09:58:23,599] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 10:02:38,119] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 10:02:38,190] ({pool-2-thread-16} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 10:02:38,194] ({pool-2-thread-16} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 10:04:14,618] ({pool-2-thread-16} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 10:04:14,640] ({pool-2-thread-16} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 10:04:14,706] ({pool-2-thread-16} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 10:14:25,231] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 10:14:25,583] ({qtp395629617-13} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 10:14:25,953] ({pool-2-thread-31} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 10:14:25,958] ({pool-2-thread-31} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 10:15:58,098] ({pool-2-thread-31} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 10:15:58,267] ({pool-2-thread-31} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 10:15:58,587] ({pool-2-thread-31} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 10:19:11,338] ({qtp395629617-72} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 10:19:11,659] ({pool-2-thread-9} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 10:19:11,696] ({pool-2-thread-9} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ INFO [2020-02-20 10:21:22,852] ({pool-2-thread-9} NotebookServer.java[afterStatusChange]:2314) - Job 20200219-065917_1853343063 is finished successfully, status: FINISHED
+ INFO [2020-02-20 10:21:23,065] ({pool-2-thread-9} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 10:21:23,577] ({pool-2-thread-9} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 10:27:42,362] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 11:15:19,009] ({qtp395629617-15} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 11:15:19,117] ({qtp395629617-10} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 11:15:19,157] ({pool-2-thread-62} SchedulerFactory.java[jobStarted]:114) - Job 20200219-065917_1853343063 started by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 11:15:19,164] ({pool-2-thread-62} Paragraph.java[jobRun]:381) - Run paragraph [paragraph_id: 20200219-065917_1853343063, interpreter: , note_id: 2EZZ5HVRW, user: anonymous]
+ WARN [2020-02-20 11:16:44,939] ({pool-2-thread-62} NotebookServer.java[afterStatusChange]:2316) - Job 20200219-065917_1853343063 is finished, status: ERROR, exception: null, result: %text import java.nio.file.{Paths, Files}
+import scala.io.Source
+import spark.implicits._
+import org.apache.spark.sql.functions._
+import sqlContext.implicits._
+import org.apache.spark.sql.types.DecimalType
+
+ INFO [2020-02-20 11:16:45,018] ({pool-2-thread-62} VFSNotebookRepo.java[save]:196) - Saving note:2EZZ5HVRW
+ INFO [2020-02-20 11:16:45,037] ({pool-2-thread-62} SchedulerFactory.java[jobFinished]:120) - Job 20200219-065917_1853343063 finished by scheduler org.apache.zeppelin.interpreter.remote.RemoteInterpreter-spark:shared_process-shared_session
+ INFO [2020-02-20 11:21:54,928] ({Thread-35} ZeppelinServer.java[run]:253) - Shutting down Zeppelin Server ... 
+ INFO [2020-02-20 11:21:55,023] ({qtp395629617-17} NotebookServer.java[onClose]:372) - Closed connection to 192.168.16.1 : 37120. (1006) Disconnected
+ INFO [2020-02-20 11:21:55,031] ({Thread-35} AbstractConnector.java[doStop]:341) - Stopped ServerConnector@118ffcfd{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+ INFO [2020-02-20 11:21:55,034] ({Thread-35} HouseKeeper.java[stopScavenging]:167) - node0 Stopped scavenging
+ INFO [2020-02-20 11:22:00,149] ({Thread-35} ContextHandler.java[doStop]:1045) - Stopped o.e.j.w.WebAppContext@1d548a08{zeppelin-web,/,null,UNAVAILABLE}{/zeppelin/zeppelin-web-0.8.2.war}
+ INFO [2020-02-20 11:22:00,167] ({Thread-102} InterpreterSetting.java[close]:483) - Close InterpreterSetting: ignite
+ INFO [2020-02-20 11:22:00,177] ({Thread-104} InterpreterSetting.java[close]:483) - Close InterpreterSetting: sap
+ INFO [2020-02-20 11:22:00,179] ({Thread-111} InterpreterSetting.java[close]:483) - Close InterpreterSetting: livy
+ INFO [2020-02-20 11:22:00,180] ({Thread-115} InterpreterSetting.java[close]:483) - Close InterpreterSetting: elasticsearch
+ INFO [2020-02-20 11:22:00,180] ({Thread-108} InterpreterSetting.java[close]:483) - Close InterpreterSetting: flink
+ INFO [2020-02-20 11:22:00,179] ({Thread-114} InterpreterSetting.java[close]:483) - Close InterpreterSetting: groovy
+ INFO [2020-02-20 11:22:00,179] ({Thread-112} InterpreterSetting.java[close]:483) - Close InterpreterSetting: neo4j
+ INFO [2020-02-20 11:22:00,179] ({Thread-116} InterpreterSetting.java[close]:483) - Close InterpreterSetting: redshift
+ INFO [2020-02-20 11:22:00,178] ({Thread-109} InterpreterSetting.java[close]:483) - Close InterpreterSetting: angular
+ INFO [2020-02-20 11:22:00,178] ({Thread-113} InterpreterSetting.java[close]:483) - Close InterpreterSetting: file
+ INFO [2020-02-20 11:22:00,178] ({Thread-107} InterpreterSetting.java[close]:483) - Close InterpreterSetting: pig
+ INFO [2020-02-20 11:22:00,178] ({Thread-103} InterpreterSetting.java[close]:483) - Close InterpreterSetting: python
+ INFO [2020-02-20 11:22:00,178] ({Thread-106} InterpreterSetting.java[close]:483) - Close InterpreterSetting: lens
+ INFO [2020-02-20 11:22:00,177] ({Thread-105} InterpreterSetting.java[close]:483) - Close InterpreterSetting: jdbc
+ INFO [2020-02-20 11:22:00,205] ({Thread-141} InterpreterSetting.java[close]:483) - Close InterpreterSetting: md
+ INFO [2020-02-20 11:22:00,204] ({Thread-140} InterpreterSetting.java[close]:483) - Close InterpreterSetting: spark
+ INFO [2020-02-20 11:22:00,209] ({Thread-140} ManagedInterpreterGroup.java[close]:89) - Close InterpreterGroup: spark:shared_process
+ INFO [2020-02-20 11:22:00,203] ({Thread-139} InterpreterSetting.java[close]:483) - Close InterpreterSetting: sh
+ INFO [2020-02-20 11:22:00,202] ({Thread-137} InterpreterSetting.java[close]:483) - Close InterpreterSetting: redshift
+ INFO [2020-02-20 11:22:00,201] ({Thread-138} InterpreterSetting.java[close]:483) - Close InterpreterSetting: cassandra
+ INFO [2020-02-20 11:22:00,200] ({Thread-136} InterpreterSetting.java[close]:483) - Close InterpreterSetting: elasticsearch
+ INFO [2020-02-20 11:22:00,196] ({Thread-134} InterpreterSetting.java[close]:483) - Close InterpreterSetting: file
+ INFO [2020-02-20 11:22:00,196] ({Thread-135} InterpreterSetting.java[close]:483) - Close InterpreterSetting: groovy
+ INFO [2020-02-20 11:22:00,195] ({Thread-133} InterpreterSetting.java[close]:483) - Close InterpreterSetting: neo4j
+ INFO [2020-02-20 11:22:00,194] ({Thread-132} InterpreterSetting.java[close]:483) - Close InterpreterSetting: livy
+ INFO [2020-02-20 11:22:00,191] ({Thread-128} InterpreterSetting.java[close]:483) - Close InterpreterSetting: kylin
+ INFO [2020-02-20 11:22:00,190] ({Thread-131} InterpreterSetting.java[close]:483) - Close InterpreterSetting: angular
+ INFO [2020-02-20 11:22:00,190] ({Thread-123} InterpreterSetting.java[close]:483) - Close InterpreterSetting: jdbc
+ INFO [2020-02-20 11:22:00,190] ({Thread-121} InterpreterSetting.java[close]:483) - Close InterpreterSetting: md
+ INFO [2020-02-20 11:22:00,190] ({Thread-127} InterpreterSetting.java[close]:483) - Close InterpreterSetting: hbase
+ INFO [2020-02-20 11:22:00,190] ({Thread-125} InterpreterSetting.java[close]:483) - Close InterpreterSetting: alluxio
+ INFO [2020-02-20 11:22:00,190] ({Thread-130} InterpreterSetting.java[close]:483) - Close InterpreterSetting: flink
+ INFO [2020-02-20 11:22:00,189] ({Thread-129} InterpreterSetting.java[close]:483) - Close InterpreterSetting: pig
+ INFO [2020-02-20 11:22:00,188] ({Thread-124} InterpreterSetting.java[close]:483) - Close InterpreterSetting: lens
+ INFO [2020-02-20 11:22:00,186] ({Thread-120} InterpreterSetting.java[close]:483) - Close InterpreterSetting: python
+ INFO [2020-02-20 11:22:00,186] ({Thread-126} InterpreterSetting.java[close]:483) - Close InterpreterSetting: bigquery
+ INFO [2020-02-20 11:22:00,185] ({Thread-122} InterpreterSetting.java[close]:483) - Close InterpreterSetting: sap
+ INFO [2020-02-20 11:22:00,183] ({Thread-119} InterpreterSetting.java[close]:483) - Close InterpreterSetting: spark
+ INFO [2020-02-20 11:22:00,182] ({Thread-110} InterpreterSetting.java[close]:483) - Close InterpreterSetting: ignite
+ INFO [2020-02-20 11:22:00,182] ({Thread-118} InterpreterSetting.java[close]:483) - Close InterpreterSetting: sh
+ INFO [2020-02-20 11:22:00,180] ({Thread-117} InterpreterSetting.java[close]:483) - Close InterpreterSetting: cassandra
+ INFO [2020-02-20 11:22:00,210] ({Thread-140} ManagedInterpreterGroup.java[close]:100) - Close Session: shared_session for interpreter setting: spark
+ INFO [2020-02-20 11:22:00,208] ({Thread-145} InterpreterSetting.java[close]:483) - Close InterpreterSetting: kylin
+ INFO [2020-02-20 11:22:00,207] ({Thread-143} InterpreterSetting.java[close]:483) - Close InterpreterSetting: bigquery
+ INFO [2020-02-20 11:22:00,207] ({Thread-144} InterpreterSetting.java[close]:483) - Close InterpreterSetting: hbase
+ INFO [2020-02-20 11:22:00,206] ({Thread-142} InterpreterSetting.java[close]:483) - Close InterpreterSetting: alluxio
+ WARN [2020-02-20 11:22:00,538] ({Thread-140} RemoteInterpreter.java[close]:199) - close is called when RemoterInterpreter is not opened for org.apache.zeppelin.spark.SparkSqlInterpreter
+ WARN [2020-02-20 11:22:00,544] ({Thread-140} RemoteInterpreter.java[close]:199) - close is called when RemoterInterpreter is not opened for org.apache.zeppelin.spark.DepInterpreter
+ WARN [2020-02-20 11:22:00,547] ({Thread-140} RemoteInterpreter.java[close]:199) - close is called when RemoterInterpreter is not opened for org.apache.zeppelin.spark.PySparkInterpreter
+ WARN [2020-02-20 11:22:00,549] ({Thread-140} RemoteInterpreter.java[close]:199) - close is called when RemoterInterpreter is not opened for org.apache.zeppelin.spark.IPySparkInterpreter
+ WARN [2020-02-20 11:22:00,551] ({Thread-140} RemoteInterpreter.java[close]:199) - close is called when RemoterInterpreter is not opened for org.apache.zeppelin.spark.SparkRInterpreter
+ INFO [2020-02-20 11:22:00,562] ({Thread-140} ManagedInterpreterGroup.java[close]:105) - Remove this InterpreterGroup: spark:shared_process as all the sessions are closed
+ INFO [2020-02-20 11:22:00,562] ({Thread-140} ManagedInterpreterGroup.java[close]:108) - Kill RemoteInterpreterProcess
+ INFO [2020-02-20 11:22:00,564] ({Thread-140} RemoteInterpreterManagedProcess.java[stop]:220) - Kill interpreter process
+ERROR [2020-02-20 11:22:01,499] ({Thread-37} RemoteInterpreterEventPoller.java[run]:257) - Can not get RemoteInterpreterEvent because it is shutdown.
+ERROR [2020-02-20 11:22:01,506] ({pool-6-thread-1} AppendOutputRunner.java[run]:68) - Wait for OutputBuffer queue interrupted: null

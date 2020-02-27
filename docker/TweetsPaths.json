@@ -1,0 +1,12 @@
+{
+"jsonpaths": [
+"$['quote_count']",
+"$['language']",
+"$['text']",
+"$['created_at']",
+"$['timestamp_ms']",
+"$['source']",
+"$['retweet_count']",
+"$['user_id']"
+]
+}
